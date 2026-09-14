@@ -1,7 +1,7 @@
 #!/bin/bash
 # Verity 站每日关键词管道
 set -u
-PROJ="/Users/david/Projects/veritygame"
+PROJ="/Users/david/Desktop/david/Ship/veritygame"
 LOG="/tmp/veritygame-daily.log"
 PI="/Users/david/Library/pnpm/bin/pi"
 
@@ -11,7 +11,7 @@ cd "$PROJ" || exit 1
 echo "=== $(date '+%Y-%m-%d %H:%M') run start ===" >> "$LOG"
 
 "$PI" -p --no-session <<'EOF' >> "$LOG" 2>&1
-你是 Verity (Roblox) 攻略站的每日运营 agent。项目目录：/Users/david/Projects/veritygame
+你是 Verity (Roblox) 攻略站的每日运营 agent。项目目录：/Users/david/Desktop/david/Ship/veritygame
 
 ## 站点现状
 - 已有页面：/ /badges /good-ending /walkthrough /characters /veritys-game /codes
