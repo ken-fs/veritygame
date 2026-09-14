@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getGameConfig, getBadges } from '@/lib/data';
-import { generateVideoGameSchema, getCurrentDateString } from '@/lib/seo';
+import { generateVideoGameSchema, generateWebSiteSchema, getCurrentDateString } from '@/lib/seo';
 
 const config = getGameConfig();
 
@@ -20,6 +20,7 @@ export default function HomePage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateWebSiteSchema()) }} />
 
       {/* Hero */}
       <section className="mb-12">

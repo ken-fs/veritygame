@@ -56,6 +56,27 @@ export default function CodesPage() {
         </p>
       </div>
 
+      <section className="prose prose-gray dark:prose-invert max-w-none mb-8">
+        <h2>Why Verity Doesn&apos;t Have Codes</h2>
+        <p>
+          Verity is a story-driven horror game, not a grinding simulator — there&apos;s no currency, no shop economy,
+          and nothing for a code to unlock. Its entire progression is the 3-day survival loop, and its collectibles
+          are the <a href="/badges">six badges</a>: I&apos;m Verity!, Lovity, Bority, I&apos;m Falsity!, and the two endings.
+        </p>
+        <p>
+          Codes usually appear in Roblox games that have repeatable economies (simulators, tycoons, fighters).
+          If the Verity universe grows in that direction — the trending{' '}
+          <a href="/veritys-game">Verity&apos;s Game</a> by Slime Time Studios is the most likely candidate — a code
+          system becomes plausible. We check both games daily.
+        </p>
+        <h2>What to Unlock Instead</h2>
+        <ul>
+          <li>🏅 <a href="/badges">All 6 badges</a> — including the AFK-only Bority badge</li>
+          <li>📖 <a href="/good-ending">Good Ending</a> — collect all 6 books (the hidden black book near the house is the one everyone misses)</li>
+          <li>🔵 <a href="/characters">I&apos;m Falsity!</a> — find the blue orb in the third tower</li>
+        </ul>
+      </section>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
     </div>

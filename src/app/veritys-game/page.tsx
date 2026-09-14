@@ -60,6 +60,22 @@ export default function VeritysGamePage() {
           <li><strong>Escape Verity</strong> — Mind Blowing Productions — escape-format spinoff with Chapter 1 &amp; 2.</li>
           <li><strong>Verity Companion [AI]</strong> — chat-focused spinoff.</li>
         </ul>
+        <h2>What We&apos;re Tracking</h2>
+        <p>
+          The original Verity built its search demand on walkthroughs, endings and badge hunting — and Verity&apos;s Game
+          is expected to follow the same pattern. Here&apos;s what this page tracks as the game develops:
+        </p>
+        <ul>
+          <li><strong>Endings &amp; secrets</strong> — any branching outcomes or hidden badges found in Verity&apos;s Game</li>
+          <li><strong>Mechanics</strong> — how it differs from the original&apos;s 3-day survival loop</li>
+          <li><strong>Codes</strong> — neither game has a code system yet; we check daily (see <a href="/codes">codes status</a>)</li>
+          <li><strong>Updates</strong> — new chapters or content drops from Slime Time Studios</li>
+        </ul>
+        <p>
+          Playing Verity&apos;s Game right now? The fastest way to understand the universe is the original&apos;s{' '}
+          <a href="/walkthrough">3-day walkthrough</a> — same DNA, same sphere, same rules: don&apos;t trust a ball that
+          knows everything.
+        </p>
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />

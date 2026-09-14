@@ -1,0 +1,16 @@
+# Verity Guide (veritysgame.xyz)
+
+> Fan-made companion site for Verity (Roblox) by The ROBO Studio! and the Verity universe, including the trending Verity's Game by Slime Time Studios.
+
+## Key Pages
+
+- /badges — All 6 Verity badges with exact unlock steps (I'm Verity!, Lovity, Bority, I'm Falsity!, Good/Bad Ending)
+- /good-ending — Good Ending guide: all 6 book locations incl. the hidden black book, lab sequence, freeze bug workaround
+- /walkthrough — Full 3-day walkthrough (chop, mine, tower, final night)
+- /characters — Verity, Falsity, Barity, Lovity, Bority lore and how to find each
+- /veritys-game — The trending Verity's Game (Slime Time Studios) tracker
+- /codes — Code status for all Verity games (none exist; monitored daily)
+
+## Data Policy
+
+All content verified against community guides and full-playthrough footage. Bugs (like the Good Ending freeze) are documented with workarounds.
