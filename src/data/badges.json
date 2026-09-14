@@ -1,0 +1,48 @@
+{
+  "note": "Badge data verified against community guides and full-playthrough videos (July-Sept 2026).",
+  "badges": [
+    {
+      "slug": "im-verity",
+      "name": "I'm Verity!",
+      "difficulty": "Easy",
+      "howTo": "Start the game and open the box at your doorstep. Verity (the yellow sphere) introduces himself and the badge unlocks instantly.",
+      "missable": false
+    },
+    {
+      "slug": "lovity",
+      "name": "Lovity",
+      "difficulty": "Easy",
+      "howTo": "Pick Verity up and throw him onto the bed. It may take a few throws to register — keep tossing him until the badge pops.",
+      "missable": false
+    },
+    {
+      "slug": "bority",
+      "name": "Bority",
+      "difficulty": "Easy (boring)",
+      "howTo": "After building the observation tower and being told to go to bed, stay inside the house next to Verity and remain AFK for about 10 minutes. The badge eventually unlocks by itself.",
+      "missable": false
+    },
+    {
+      "slug": "im-falsity",
+      "name": "I'm Falsity!",
+      "difficulty": "Medium",
+      "howTo": "Visit the third tower from your house and interact with the blue orb inside. That's Falsity — another AI model who 'knows everything'.",
+      "missable": false
+    },
+    {
+      "slug": "bad-ending",
+      "name": "Bad Ending",
+      "difficulty": "Default",
+      "howTo": "Reach the final night and enter the house after collecting 5 or fewer books. Missing any of the 6 books locks you into the Bad Ending.",
+      "missable": false
+    },
+    {
+      "slug": "good-ending",
+      "name": "Good Ending",
+      "difficulty": "Hard",
+      "howTo": "Collect ALL 6 books — including the easily-missed black book near the house — BEFORE entering the house on the final night. Then follow Verity to the lab, pick room 3, break the rock wall with your pickaxe, and destroy the anchor.",
+      "missable": true,
+      "warning": "Known bug: the Good Ending cutscene can freeze after sleeping. If nothing happens, rejoin and redo the final night — put Verity on the couch before sleeping."
+    }
+  ]
+}
