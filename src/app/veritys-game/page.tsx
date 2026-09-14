@@ -32,7 +32,7 @@ export default function VeritysGamePage() {
       <h1 className="text-3xl font-black mb-2">Verity&apos;s Game</h1>
       <p className="text-gray-500 mb-8">The trending new entry in the Verity universe — tracked {getCurrentDateString()}.</p>
 
-      <div className="p-5 rounded-xl border border-violet-300 dark:border-violet-800 bg-violet-50 dark:bg-violet-950/30 mb-8">
+      <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios</strong></div>
           <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 3,000+ online</strong></div>

@@ -53,7 +53,7 @@ export default function BadgesPage() {
               </p>
             )}
             {(b.slug === 'good-ending' || b.slug === 'bad-ending') && (
-              <Link href="/good-ending" className="inline-block mt-2 text-sm text-violet-600 dark:text-violet-400 hover:underline">
+              <Link href="/good-ending" className="inline-block mt-2 text-sm text-yellow-700 dark:text-yellow-400 hover:underline">
                 Full ending walkthrough →
               </Link>
             )}

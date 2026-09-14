@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-2">
-        <Link href="/" className="font-bold text-lg tracking-tight hover:text-violet-600 transition-colors whitespace-nowrap">
+        <Link href="/" className="font-bold text-lg tracking-tight hover:text-yellow-600 transition-colors whitespace-nowrap">
           🟡 {config.game.name}
           <span className="text-xs text-gray-400 ml-2 font-normal hidden md:inline">Guide</span>
         </Link>

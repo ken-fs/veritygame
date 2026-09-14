@@ -60,7 +60,7 @@ export default function CharactersPage() {
               <span className="text-2xl">{c.emoji}</span>
               <div>
                 <h2 className="text-lg font-black">{c.name}</h2>
-                <div className="text-xs text-violet-600 dark:text-violet-400 font-semibold uppercase tracking-wide">{c.role}</div>
+                <div className="text-xs text-yellow-700 dark:text-yellow-400 font-semibold uppercase tracking-wide">{c.role}</div>
               </div>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">{c.desc}</p>

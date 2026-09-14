@@ -12,7 +12,7 @@ export default function NavLink({ href, label }: { href: string; label: string }
       aria-current={active ? 'page' : undefined}
       className={`px-2.5 py-2 rounded-md transition-colors whitespace-nowrap ${
         active
-          ? 'bg-violet-100 dark:bg-violet-950/60 text-violet-700 dark:text-violet-300 font-semibold'
+          ? 'bg-yellow-100 dark:bg-yellow-950/40 text-yellow-800 dark:text-yellow-300 font-semibold'
           : 'hover:bg-gray-100 dark:hover:bg-gray-800'
       }`}
     >

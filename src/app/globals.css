@@ -5,11 +5,11 @@
   --font-display: var(--font-display), "Oswald", system-ui, sans-serif;
   --font-body: var(--font-body), "Inter", system-ui, sans-serif;
 
-  --color-deep-50: #f5f3ff;
-  --color-deep-500: #7c3aed;
-  --color-deep-600: #6d28d9;
-  --color-deep-700: #5b21b6;
-  --color-deep-900: #2e1065;
+  --color-deep-50: #fffdf2;
+  --color-deep-500: #eab308;
+  --color-deep-600: #ca8a04;
+  --color-deep-700: #a16207;
+  --color-deep-900: #171712;
   --color-sand-400: #fde047;
   --color-sand-500: #facc15;
 }
@@ -115,7 +115,7 @@ input:focus-visible {
   top: 0;
   z-index: 100;
   padding: 0.5rem 1rem;
-  background: var(--color-deep-600);
+  background: #171712;
   color: #fff;
   border-radius: 0 0 0.5rem 0;
   font-weight: 600;
