@@ -22,9 +22,9 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
       {/* Hero */}
-      <section className="relative rounded-2xl overflow-hidden mb-10 border border-gray-200 dark:border-gray-800">
+      <section className="relative rounded-2xl overflow-hidden mb-10 border border-gray-200 dark:border-gray-800 hero-bg hero-grain">
         <div className="absolute inset-0 bg-gradient-to-br from-violet-900/85 via-purple-950/90 to-gray-950/95" />
-        <img src="/hero-bg.jpg" alt="Verity Roblox gameplay" className="absolute inset-0 w-full h-full object-cover -z-10" />
+        <img src="/hero-bg.jpg" alt="Verity Roblox gameplay" fetchPriority="high" loading="eager" className="absolute inset-0 w-full h-full object-cover -z-10" />
         <div className="relative px-6 py-14 md:py-20 text-white">
           <p className="text-yellow-300 text-sm font-semibold mb-2 tracking-wide uppercase">The AI companion horror game</p>
           <h1 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">Verity Guide &amp; Walkthrough</h1>
@@ -33,10 +33,10 @@ export default function HomePage() {
             Complete badge guide, all endings explained, and every book location — updated {getCurrentDateString()}.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/good-ending" className="px-5 py-2.5 rounded-lg bg-yellow-400 hover:bg-yellow-300 text-gray-950 font-bold transition-colors">
+            <Link href="/good-ending" className="btn-press px-5 py-2.5 rounded-lg bg-yellow-400 hover:bg-yellow-300 text-gray-950 font-bold">
               Good Ending Guide →
             </Link>
-            <Link href="/badges" className="px-5 py-2.5 rounded-lg bg-white/10 hover:bg-white/20 border border-white/20 font-semibold transition-colors">
+            <Link href="/badges" className="btn-press px-5 py-2.5 rounded-lg bg-white/10 hover:bg-white/20 border border-white/20 font-semibold">
               All 6 Badges
             </Link>
           </div>
@@ -62,8 +62,8 @@ export default function HomePage() {
       <section className="mb-10">
         <h2 className="text-2xl font-black mb-4">Guides</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {GUIDES.map((t) => (
-            <Link key={t.href} href={t.href} className="p-5 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-violet-500 dark:hover:border-violet-600 hover:shadow-lg transition-all group">
+          {GUIDES.map((t, i) => (
+            <Link key={t.href} href={t.href} className={`p-5 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-violet-500 dark:hover:border-violet-600 hover:shadow-lg hover:shadow-violet-950/10 dark:hover:shadow-violet-500/5 transition-all group ${i === 0 ? 'md:col-span-2 bg-gradient-to-br from-violet-50/80 to-transparent dark:from-violet-950/30 dark:to-transparent' : ''}`}>
               <div className="text-2xl mb-2">{t.emoji}</div>
               <h3 className="font-bold mb-1 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">{t.title}</h3>
               <p className="text-sm text-gray-500">{t.desc}</p>

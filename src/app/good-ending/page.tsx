@@ -30,6 +30,16 @@ export default function GoodEndingPage() {
       answer:
         'The Good Ending has a known bug: after going to sleep on the final night, the cutscene sometimes never triggers. Workaround confirmed by players: put Verity on the couch before sleeping, and if nothing happens, rejoin and redo the final night. It may take several attempts.',
     },
+    {
+      question: 'Can you get both endings in one Verity playthrough?',
+      answer:
+        'No. Entering the house with all 6 books triggers the Good Ending and locks out the Bad Ending for that run. Getting both badges requires two runs — do the Good Ending first, then rush a second run skipping at least one book.',
+    },
+    {
+      question: 'How long does it take to beat Verity?',
+      answer:
+        'A first blind playthrough takes about 45–60 minutes. With a guide you can finish in under 30 minutes, and a Bad Ending speedrun is much faster since you skip all book hunting.',
+    },
   ]);
 
   return (

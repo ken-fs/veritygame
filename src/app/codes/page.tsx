@@ -25,6 +25,21 @@ export default function CodesPage() {
       answer:
         'Verity is a story horror game — the unlockables are its 6 badges and 2 endings. See our badge guide for the fastest 100% route.',
     },
+    {
+      question: 'Did Verity ever have codes?',
+      answer:
+        'No — the game has never had a code redemption system since launch. The closest thing to free rewards is the badge set, which is earned entirely in-game.',
+    },
+    {
+      question: "What about codes for Verity's Game (Slime Time Studios)?",
+      answer:
+        "Verity's Game does not have codes either as of September 2026. We monitor both games daily and will update this page the moment any code system appears.",
+    },
+    {
+      question: 'Where would Verity codes appear if they were added?',
+      answer:
+        'Most Roblox horror games put code redemption in the settings menu or a dedicated codes button on the main screen. If Verity adds one, we will publish exact redemption steps here.',
+    },
   ]);
 
   return (
