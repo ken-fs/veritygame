@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className="max-w-3xl mx-auto px-4 py-10 prose prose-gray dark:prose-invert">
       <h1>About</h1>
       <p>
-        veritygame.xyz is a fan-made companion site for the Roblox game <strong>Verity</strong> by The ROBO Studio!.
+        veritysgame.xyz is a fan-made companion site for the Roblox game <strong>Verity</strong> by The ROBO Studio!.
         We maintain the badge guides, ending walkthroughs and character lore — updated daily.
       </p>
       <p>
