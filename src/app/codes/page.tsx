@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity Codes (${getCurrentDateString()}) — Do Codes Exist?`,
   description:
-    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily. Plus how to get free rewards without codes.",
+    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily — plus the real working codes for Build Base to Survive VERITY.",
   keywords: ['verity codes', 'verity roblox codes', "verity's game codes", 'verity codes 2026'],
   path: '/codes',
 });
@@ -18,7 +18,7 @@ export default function CodesPage() {
     {
       question: 'Are there any Verity codes?',
       answer:
-        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of September 2026. Any site listing 'working Verity codes' is inventing them. This page is checked daily.",
+        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of September 2026. Sites listing 'working Verity codes' are covering Build Base to Survive VERITY, a different game — its real codes are listed below. This page is checked daily.",
     },
     {
       question: 'How do I get free stuff in Verity without codes?',
@@ -75,6 +75,23 @@ export default function CodesPage() {
           <li>📖 <a href="/good-ending">Good Ending</a> — collect all 6 books (the hidden black book near the house is the one everyone misses)</li>
           <li>🔵 <a href="/characters">I&apos;m Falsity!</a> — find the blue orb in the third tower</li>
         </ul>
+        <h2>&quot;Verity Codes&quot; You Found Elsewhere = Build Base to Survive VERITY</h2>
+        <p>
+          Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
+          <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
+          at night. Its working codes, cross-verified September 2026:
+        </p>
+        <ul>
+          <li><code>GODITY</code> — 10 Barrier Blocks</li>
+          <li><code>UPDATE2</code> — 10 Bedrock</li>
+          <li><code>MANIPULITY</code> — 15 Crying Obsidian</li>
+          <li><code>CODES</code> — $500 cash</li>
+        </ul>
+        <p>
+          RobloxDen additionally reports VOIDITY, UPDATE4, DAILYQUESTS, WEEKLY and more as active — unverified on our
+          side, try them in-game. Expired: THXFOR1M, CURIOSITYUPD, 10000PLAYERS. To redeem: Store button (left of the
+          screen) → code box at the bottom → Enter.
+        </p>
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
