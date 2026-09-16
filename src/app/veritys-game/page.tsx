@@ -4,8 +4,8 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity's Game (Roblox) — ${getCurrentDateString()} Guide & What We Know`,
   description:
-    "Verity's Game by Slime Time Studios is the trending new Roblox entry in the Verity horror universe (3,000+ concurrent players). What it is, how it connects to Verity, and guides as they develop.",
-  keywords: ["verity's game", "verity's game roblox", "veritys game", "verity game roblox", "new verity game"],
+    "Verity's Game by Slime Time Studios is the trending new Roblox box-hunting game (3M+ visits in two weeks): a field of cash boxes, incredibly rare finds, and a smiley sphere watching. What we know, tracked daily.",
+  keywords: ["verity's game", "verity's game roblox", "veritys game", "verity game roblox", "new verity game", "verity's game boxes", "verity's game gameplay"],
   path: '/veritys-game',
 });
 
@@ -18,12 +18,12 @@ export default function VeritysGamePage() {
     {
       question: "What is Verity's Game on Roblox?",
       answer:
-        "Verity's Game is a new Roblox horror game by Slime Time Studios, riding the wave of the viral Verity IP (The ROBO Studio!'s original passed 28M visits). It is currently trending with 3,000+ concurrent players.",
+        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 3 million visits in under two weeks with 3,000+ concurrent players on 5-player servers.",
     },
     {
       question: "Is Verity's Game the same as Verity?",
       answer:
-        "No. The original Verity is by The ROBO Studio!. Verity's Game is a separate title by Slime Time Studios set in the same sphere-horror universe. The original's badge and ending guides are on this site.",
+        "No. The original Verity is a 3-day survival horror game by The ROBO Studio!. Verity's Game is a separate box-hunting title by Slime Time Studios riding the same hype — different gameplay, different developer. The original's badge and ending guides are on this site.",
     },
   ]);
 
@@ -34,24 +34,42 @@ export default function VeritysGamePage() {
 
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
-          <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios</strong></div>
-          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 3,000+ online</strong></div>
-          <div><span className="text-gray-500">Genre:</span> <strong>Horror</strong></div>
-          <div><span className="text-gray-500">Universe:</span> <strong>Verity (sphere AI)</strong></div>
+          <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios (verified group, 4.5M+ members)</strong></div>
+          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 3.2K online, 3M+ visits, ~84% likes</strong></div>
+          <div><span className="text-gray-500">Genre:</span> <strong>Box-hunting / collection (horror-comedy wink)</strong></div>
+          <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 13)</strong></div>
+          <div><span className="text-gray-500">Servers:</span> <strong>5 players</strong></div>
+          <div><span className="text-gray-500">Codes:</span> <strong>None confirmed (checked daily)</strong></div>
         </div>
       </div>
 
       <section className="prose prose-gray dark:prose-invert max-w-none">
         <h2>What We Know</h2>
         <p>
-          Verity&apos;s Game launched into the Verity hype wave and is pulling thousands of concurrent players.
-          The original <strong>Verity™</strong> (The ROBO Studio!) built the formula — a companion sphere, 3 days of prep,
-          branching endings — and this new entry extends the universe.
+          Despite the name, Verity&apos;s Game is <strong>not a horror game like the original</strong> — it&apos;s a
+          box-hunting collection game riding the Verity hype wave. The entire official description reads:
+        </p>
+        <blockquote>
+          &ldquo;Welcome to my game where nothing bad will happen and there&apos;s a big field full of boxes that are all
+          mine so leave them alone even though they make you cash and even though some of them are incredibly
+          extremely rare just leave them alone. 🙂&rdquo;
+        </blockquote>
+        <p>
+          Reading between the 🙂: the map is a <strong>big field of boxes</strong> that generate cash, some boxes are
+          <strong> incredibly extremely rare</strong>, and you&apos;re officially told to leave them alone — the community
+          sums it up as <em>&ldquo;Steal An Egg but Verity&rdquo;</em>. The official artwork shows a giant yellow
+          smiley-face sphere looming over a tiny player, watching its boxes.
         </p>
         <p>
-          This page is tracked daily. As the community maps out Verity&apos;s Game — endings, secrets, mechanics —
-          guides land here first. Playing the original first? Start with the{' '}
-          <a href="/walkthrough">full walkthrough</a> and the <a href="/badges">badge guide</a>.
+          The numbers are real: released September 4, 2026, it passed <strong>3 million visits in under two
+          weeks</strong> and hit Roblox&apos;s Top Trending charts — on tiny 5-player servers, with roughly 3,200
+          concurrent players and an ~84% like ratio (Roblox public API snapshot, Sept 14). Slime Time Studios is a
+          verified group with 4.5M+ members; the game links <strong>no official Discord, Trello or social
+          channels</strong> yet.
+        </p>
+        <p>
+          Playing the original horror game instead? Start with the <a href="/walkthrough">full walkthrough</a> and the{' '}
+          <a href="/badges">badge guide</a>.
         </p>
         <h2>The Verity Universe</h2>
         <ul>
@@ -63,19 +81,19 @@ export default function VeritysGamePage() {
         </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
-          The original Verity built its search demand on walkthroughs, endings and badge hunting — and Verity&apos;s Game
-          is expected to follow the same pattern. Here&apos;s what this page tracks as the game develops:
+          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 14).
+          These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>
-          <li><strong>Endings &amp; secrets</strong> — any branching outcomes or hidden badges found in Verity&apos;s Game</li>
-          <li><strong>Mechanics</strong> — how it differs from the original&apos;s 3-day survival loop</li>
-          <li><strong>Codes</strong> — neither game has a code system yet; we check daily (see <a href="/codes">codes status</a>)</li>
-          <li><strong>Updates</strong> — new chapters or content drops from Slime Time Studios</li>
+          <li><strong>Box tiers &amp; odds</strong> — tier names beyond normal vs &ldquo;incredibly extremely rare&rdquo;, cash amounts, rarity rates</li>
+          <li><strong>The smiley sphere</strong> — what the giant yellow face in the artwork actually does in gameplay</li>
+          <li><strong>Stealing</strong> — whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style</li>
+          <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
+          <li><strong>Updates</strong> — last game update Sept 13, 2026; new content drops land here first</li>
         </ul>
         <p>
-          Playing Verity&apos;s Game right now? The fastest way to understand the universe is the original&apos;s{' '}
-          <a href="/walkthrough">3-day walkthrough</a> — same DNA, same sphere, same rules: don&apos;t trust a ball that
-          knows everything.
+          New to the sphere universe? The original&apos;s <a href="/walkthrough">3-day walkthrough</a> is the fastest
+          way to understand the IP — same rules apply: don&apos;t trust a ball that knows everything.
         </p>
       </section>
 
