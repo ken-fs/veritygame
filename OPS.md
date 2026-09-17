@@ -27,6 +27,10 @@
   - 日志：`/tmp/veritygame-daily.log`
   - 重点监控：Verity's Game 攻略内容浮现（扩写占位页）、Chapter 2/续作、codes 系统
 
+## 运营日志
+
+- 2026-09-17：发现 fan-made「Verity Part 2」（Umek0 Games，8月 Part 2 更新，YouTube 全流程攻略已出）→ 已加入 /veritys-game 宇宙清单并做非官方消歧。Verity's Game 攻略内容仍为 0，codes 仍无。
+
 ## 收录状态
 
 - ✅ IndexNow（Bing/Yandex）：2026-09-14 已提交 10 URL
