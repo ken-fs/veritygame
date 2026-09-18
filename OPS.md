@@ -84,6 +84,16 @@
 
 `verity roblox` 排 16.1、`verity game` 排 79 —— 这是**抢不过的词**：5 个竞品站 + 官方游戏页 + Fandom + YouTube 全在争。唯一有戏的是长尾衍生作词（如 `verity companion roblox all endings` 已排 7.0）。`/which-verity` 消歧页 + 衍生作内容的策略是对的，应继续加码。
 
+## ⚠️ Indexing API 实测无效（2026-09-18）
+
+服务账号升到 Owner 后实测：
+- `POST /v3/urlNotifications:publish` → **HTTP 200 ✓**（看起来成功）
+- `GET /v3/urlNotifications/metadata` → **404 NOT_FOUND**（Google 根本没记录）
+
+这是官方设计：Indexing API 只处理 `JobPosting` / `BroadcastEvent`，其他页面静默丢弃。
+
+**结论：收录只能靠 sitemap（已自动化）+ IndexNow（已配置）+ 手动「请求编入索引」（无 API）。**
+
 ## 收录状态
 
 - ✅ IndexNow（Bing/Yandex）：2026-09-14 已提交 10 URL
