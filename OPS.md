@@ -62,6 +62,28 @@
 - 2026-09-18：Build Base to Survive VERITY codes 轮换 → 重写 /codes 列表：新码 VOIDITY（报 9/19 过期）/UPDATE4/DAILYQUESTS/OGplayer67 经 TechWiser+ProGameGuides+TryHardGuides 三源交叉；GODITY/UPDATE2/MANIPULITY/ROBLOXDOWN 状态分歧已标注。Verity Companion 官方描述 Update 1（新结局+消息上限 40）→ /veritys-game 宇宙行补注。Verity's Game 攻略内容仍为 0（aprasi 科普文仅官方描述派生，无实据），监控日期更新至 9/18。
 - 2026-09-17：发现 fan-made「Verity Part 2」（Umek0 Games，8月 Part 2 更新，YouTube 全流程攻略已出）→ 已加入 /veritys-game 宇宙清单并做非官方消歧。Verity's Game 攻略内容仍为 0，codes 仍无。
 
+## GSC 诊断（2026-09-18，API 接入首日）
+
+### 搜索数据（28 天，实为 09-14 上线后）
+
+| 点击 | 展示 | 排名 | 关键词 |
+|---:|---:|---:|---|
+| 0 | 7 | 16.1 | verity roblox |
+| 0 | 1 | 7.0 | verity companion roblox all endings |
+| 0 | 1 | 79.0 | verity game |
+
+日维度：09-14 24 展示/2 点击 → 09-15 **86 展示/0 点击**（有展示无点击 = 排名太靠后）
+
+### ⚠️ 三个收录问题
+
+1. **只有首页被收录** —— `/badges` `/good-ending` `/walkthrough` `/which-verity` `/faq` 全部「URL is unknown to Google」，从未抓取。首页最后抓取 09-14。
+2. **`http://` 版本仍在 Google 索引里** —— page 维度显示 `http://veritysgame.xyz/` 独占 **46 次展示**（占全站 110 次的 42%）。http→https 的 301 已配，但 Google 尚未合并。
+3. **`www.` 返回 200 且内容与非 www 完全相同**（39,081 字节）→ 重复内容，无跳转。
+
+### 战略结论
+
+`verity roblox` 排 16.1、`verity game` 排 79 —— 这是**抢不过的词**：5 个竞品站 + 官方游戏页 + Fandom + YouTube 全在争。唯一有戏的是长尾衍生作词（如 `verity companion roblox all endings` 已排 7.0）。`/which-verity` 消歧页 + 衍生作内容的策略是对的，应继续加码。
+
 ## 收录状态
 
 - ✅ IndexNow（Bing/Yandex）：2026-09-14 已提交 10 URL
