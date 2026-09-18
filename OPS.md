@@ -2,7 +2,9 @@
 
 > 最后更新：2026-09-18 · 状态：✅ 已上线运营中
 >
-> **09-18 内容补全**：发现至少 8 个 Roblox 游戏共用 Verity 名字（搜索混淆是真需求，verity.wiki 还把我们这版叫 "wrong game"）→ 新建 `/which-verity` 名称消歧页 + `/faq`（16 问）；徽章页补 Roblox API 真实获奖数；/veritys-game 新增 8 游戏生态对比表；13→15 页；IndexNow 提交 4 URL。
+> **09-18 竞品拆解轮**：verity 命名空间共 5 个真竞品（verity.wiki ~60页 / veritycompanion.wiki ~50页含 tools 套件 / verityhorror.wiki 8页 / veritygame.wiki 11页 / veritysgame.wiki 7页）；verity.gg / verity.wtf 空壳，veritygame.com 是国内影视站。→ ①新建 `/which-verity` + `/faq` ②徽章页接入 Roblox API 真实获奖数 ③新增**徽章清单工具**（对标 veritycompanion.wiki 的 tools/badge-checklist）④核心页扩写 313-607 → 755-985 词。13→15 页。
+>
+> **09-18 内容补全**：至少 8 个 Roblox 游戏共用 Verity 名字 → 新建消歧页 + FAQ；/veritys-game 新增 8 游戏生态对比表。
 
 ## 站点信息
 
@@ -28,7 +30,25 @@
 - 数据源：Roblox 公开 API（游戏统计 + 徽章获奖数）+ thespike.gg 徽章验证 + 全流程视频字幕挖掘
 - 设计：亮色编辑风（白底+油墨黑+Verity黄）
 - SEO：Schema 全套（VideoGame/WebSite/Breadcrumb/FAQ 5-16问）、llms.txt、安全头、sitemap 12 URL
+- **09-18 竞品拆解轮新增**：
+  - `BadgeChecklist` 交互组件（localStorage 本地保存，进度条 + 下一个徽章提示 + 重置）→ 挂在 `/badges`
+  - `/badges` 补实时稀有度排行表；`/walkthrough` 436→985 词（资源清单表 + 易漏窗口 + 失败点 + 最快 100% 路线）
+  - `/good-ending` 393→795 词（逐书表 + freeze bug 完整解法 + 结局含义 + 双结局对比）
+  - `/characters` 313→755 词（角色/徽章辨析表 + 剧情时间线 + Falsity 存在含义）
 - SEO Health Score：84（2026-09-14 审计）
+
+## 竞品格局（09-18 拆解）
+
+| 竞品 | 覆盖 | 页面数 | 特点 |
+|---|---|---|---|
+| verity.wiki | Specter 的 Verity [HORROR]（**不同游戏**）| ~60 | 最深；含 controls/badges 单页/events |
+| veritycompanion.wiki | Verity Companion [AI] | ~50 | 有 tools（badge-checklist/codes-tracker/ending-planner）|
+| veritygame.wiki | 泛 verity | 11 | how-to-play/controls/story |
+| verityhorror.wiki | Specter 的 Verity [HORROR] | 8 | 薄 |
+| veritysgame.wiki | Verity's Game | 7 | 很薄 |
+
+- 他们把我们这版（The ROBO Studio）叫 "wrong game" → 名称混淆是双向的，`/which-verity` 是正确应对
+- 注意：verity.wiki 覆盖的是 Specter Development 的另一个同名游戏（Place 102512776849655），**内容不可混用**
 
 ## 自动化
 

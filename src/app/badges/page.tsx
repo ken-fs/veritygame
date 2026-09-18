@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import BadgeChecklist from '@/components/BadgeChecklist';
 import { getBadges } from '@/lib/data';
 import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCurrentDateString } from '@/lib/seo';
 
@@ -39,6 +40,10 @@ export default function BadgesPage() {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-black mb-2">Verity — All 6 Badges</h1>
       <p className="text-gray-500 mb-8">Every badge and how to unlock it. Verified {getCurrentDateString()}.</p>
+
+      <div className="mb-10">
+        <BadgeChecklist badges={badges} />
+      </div>
 
       <div className="space-y-4 mb-10">
         {badges.map((b, i) => (

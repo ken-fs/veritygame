@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCurrentDateString } from '@/lib/seo';
 
 export const metadata: Metadata = generateSEOMetadata({
@@ -85,6 +86,106 @@ export default function GoodEndingPage() {
           Want both badges? Do a fast second run: rush the story, deliberately skip at least one book, then enter the house
           on the final night. The Bad Ending badge unlocks immediately.
         </p>
+
+        <h2>Book-by-Book: What Actually Goes Wrong</h2>
+        <p>
+          Six books sounds simple until you realise the game never tells you how many you have found. Here is where
+          each one lives and why players miss it:
+        </p>
+        <div className="overflow-x-auto not-prose">
+          <table className="w-full text-sm border-collapse my-4">
+            <thead>
+              <tr className="border-b border-gray-200 dark:border-gray-800 text-left">
+                <th className="py-2 pr-3">Book</th>
+                <th className="py-2 pr-3">Location</th>
+                <th className="py-2">Why it gets missed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">1–3</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Scattered across the open map</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Not missed — arrow markers point to these once the hunt begins</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">4</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Inside the tall building</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Players assume the tall structure is decoration</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">5</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">By the tree</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Easy to walk past while fleeing Verity</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">6 (black)</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Hidden near your house</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400"><strong>The one that decides your ending.</strong> It is dark against a dark background, has no arrow marker, and you walk past it every single day without knowing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>The Freeze Bug: A Full Explanation</h2>
+        <p>
+          The single most common complaint about the Good Ending is that it never triggers. You collect six books,
+          sleep, and nothing happens — no cutscene, no badge, no explanation. This is a real bug, not a mistake you
+          made.
+        </p>
+        <p>
+          What players have confirmed works:
+        </p>
+        <ol>
+          <li>Put <strong>Verity on the couch</strong> before you go to sleep. This is the step that seems to make the trigger reliable.</li>
+          <li>If the cutscene still does not fire, <strong>rejoin the server and redo the final night</strong>. The books you already collected stay collected — you only repeat the night itself.</li>
+          <li>If it fails twice, <strong>rejoin once more</strong>. Multiple players report needing three or more attempts before the trigger lands.</li>
+        </ol>
+        <p>
+          The Bad Ending does <em>not</em> have this bug. If you are only chasing completion, the Bad Ending run is the
+          reliable one.
+        </p>
+
+        <h2>What the Ending Actually Means</h2>
+        <p>
+          The lab sequence is where Verity stops being a helper and becomes something else. The black room contains an{' '}
+          <strong>anchor</strong> — the object Verity says every world he inhabits has, and the thing that ties him to
+          this instance. Destroying it is what the Good Ending asks of you.
+        </p>
+        <p>
+          It recontextualises the entire game: the three-day warning, the advice, the way he &quot;knows everything&quot;.
+          The books were never the point — the anchor was. See the <Link href="/characters">characters page</Link> for
+          what that implies about Falsity and Barity, the other two spheres.
+        </p>
+
+        <h2>Good Ending vs Bad Ending</h2>
+        <div className="overflow-x-auto not-prose">
+          <table className="w-full text-sm border-collapse my-4">
+            <thead>
+              <tr className="border-b border-gray-200 dark:border-gray-800 text-left">
+                <th className="py-2 pr-3">Aspect</th>
+                <th className="py-2 pr-3">Good Ending</th>
+                <th className="py-2">Bad Ending</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-semibold whitespace-nowrap">Requirement</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">All 6 books, including the black one</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Enter with 5 or fewer books</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-semibold whitespace-nowrap">Difficulty</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Hard — book hunt plus the freeze bug</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Default — the run you get by accident</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-3 font-semibold whitespace-nowrap">Extra content</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Lab, room 3, black room, anchor</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">Immediate end</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />

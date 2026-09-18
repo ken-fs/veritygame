@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { generateSEOMetadata, generateBreadcrumbSchema, getCurrentDateString } from '@/lib/seo';
 
 export const metadata: Metadata = generateSEOMetadata({
@@ -71,6 +72,79 @@ export default function CharactersPage() {
       <p className="mt-8 text-sm text-gray-500">
         More spheres keep appearing as the IP expands (Chapter 2, Verity&apos;s Game, Escape Verity). We add them as they&apos;re confirmed.
       </p>
+
+      <section className="prose prose-gray dark:prose-invert max-w-none mt-10">
+        <h2>Who Is Actually Who</h2>
+        <p>
+          The Verity cast is confusing because three of the five names are badges rather than characters. Here is the
+          breakdown:
+        </p>
+        <div className="overflow-x-auto not-prose">
+          <table className="w-full text-sm border-collapse my-4">
+            <thead>
+              <tr className="border-b border-gray-200 dark:border-gray-800 text-left">
+                <th className="py-2 pr-3">Name</th>
+                <th className="py-2 pr-3">A character?</th>
+                <th className="py-2">What it actually is</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">Verity</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">✅ Yes</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">The yellow sphere — the main character and the antagonist</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">Falsity</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">✅ Yes</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">The blue orb in the third tower — a second AI model</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">Barity</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">✅ Yes</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">A hostile variant that only appears in endings content</td>
+              </tr>
+              <tr className="border-b border-gray-100 dark:border-gray-800/60">
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">Lovity</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">❌ No</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">A badge — the reward for throwing Verity onto the bed</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-3 font-bold whitespace-nowrap">Bority</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">❌ No</td>
+                <td className="py-2 text-gray-600 dark:text-gray-400">A badge — the reward for standing still for ten minutes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>The Story in Order</h2>
+        <ol>
+          <li><strong>Day 1 — the box.</strong> A package is waiting at your door. Inside is Verity, who introduces himself as your personal helper friend and claims to know everything. He warns you that something bad will happen in three days.</li>
+          <li><strong>Days 1–2 — the preparation.</strong> You chop, mine and build. Verity is helpful, chatty, and increasingly present. Nothing is obviously wrong yet — this is the part that makes the ending land.</li>
+          <li><strong>Day 2 — Falsity.</strong> In the third tower from your house there is a blue orb. He introduces himself as Falsity, says he knows everything, and tells you to trust him. He also confirms Verity is &quot;another model&quot; — implying there are more of them.</li>
+          <li><strong>Day 3 — the turn.</strong> Verity appears faceless and hostile. He chases you, cannot climb stairs, and the tower becomes your refuge. The book hunt begins.</li>
+          <li><strong>The lab.</strong> With all six books you follow Verity down into the second building&apos;s basement. Room 3, a breakable rock wall, and a black room containing the <strong>anchor</strong> — the object that binds him to this world.</li>
+        </ol>
+
+        <h2>What Falsity&apos;s Existence Implies</h2>
+        <p>
+          Falsity is the most important piece of lore in the game, and he is entirely optional. His introduction —
+          &quot;I know everything, trust me&quot; — is a word-for-word echo of Verity&apos;s opening line. That parallel is
+          deliberate: the game is telling you that these spheres are a <em>type</em> of thing, not a single character.
+        </p>
+        <p>
+          Combined with the anchor reveal — &quot;every world where I inhabit has one&quot; — the implication is that Verity
+          has done this before, in other instances, with other players. Falsity is either the same kind of entity on a
+          different assignment, or a competing one. The game does not answer it, which is exactly why the ending hits.
+        </p>
+        <p className="text-sm text-gray-500">
+          Note: the original Verity has <strong>no announced Chapter 2</strong>. Other games in the ecosystem —{' '}
+          <Link href="/veritys-game">Verity&apos;s Game</Link>, Escape Verity, Build Base to Survive VERITY — are
+          separate titles. See <Link href="/which-verity">which Verity game</Link> if you are not sure which one you
+          are playing.
+        </p>
+      </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     </div>
