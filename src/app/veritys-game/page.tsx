@@ -35,9 +35,9 @@ export default function VeritysGamePage() {
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios (verified group, 4.5M+ members)</strong></div>
-          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 3.2K online, 3M+ visits, ~84% likes</strong></div>
+          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 4.2K online, 7M+ visits, 25.8K favorites</strong></div>
           <div><span className="text-gray-500">Genre:</span> <strong>Box-hunting / collection (horror-comedy wink)</strong></div>
-          <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 13)</strong></div>
+          <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 18)</strong></div>
           <div><span className="text-gray-500">Servers:</span> <strong>5 players</strong></div>
           <div><span className="text-gray-500">Codes:</span> <strong>None confirmed (checked daily)</strong></div>
         </div>
@@ -61,11 +61,10 @@ export default function VeritysGamePage() {
           smiley-face sphere looming over a tiny player, watching its boxes.
         </p>
         <p>
-          The numbers are real: released September 4, 2026, it passed <strong>3 million visits in under two
-          weeks</strong> and hit Roblox&apos;s Top Trending charts — on tiny 5-player servers, with roughly 3,200
-          concurrent players and an ~84% like ratio (Roblox public API snapshot, Sept 14). Slime Time Studios is a
-          verified group with 4.5M+ members; the game links <strong>no official Discord, Trello or social
-          channels</strong> yet.
+          The numbers are real: released September 4, 2026, it passed <strong>7 million visits</strong> and{' '}
+          <strong>4,200 concurrent players</strong> in two weeks (Roblox public API snapshot, Sept 18) — on tiny
+          5-player servers. Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
+          <strong>no official Discord, Trello or social channels</strong> yet.
         </p>
         <p>
           Playing the original horror game instead? Start with the <a href="/walkthrough">full walkthrough</a> and the{' '}
@@ -80,6 +79,51 @@ export default function VeritysGamePage() {
           <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending (official game description, Sept 2026).</li>
           <li><strong>Verity Part 2</strong> — Umek0 Games — fan-made story continuation; its Part 2 update landed August 2026 with full walkthroughs already on YouTube. Not an official sequel — The ROBO Studio! has announced no Chapter 2 for the original.</li>
         </ul>
+        <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
+        <p className="not-prose text-sm text-gray-500">
+          All eight Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 18 2026 —{' '}
+          <a href="/which-verity" className="underline">full comparison with what each game is</a>.
+        </p>
+        <div className="overflow-x-auto not-prose">
+          <table className="w-full text-sm border-collapse my-4">
+            <thead>
+              <tr className="border-b border-gray-200 dark:border-gray-800 text-left">
+                <th className="py-2 pr-3">Game</th>
+                <th className="py-2 pr-3">Creator</th>
+                <th className="py-2 pr-3">Playing</th>
+                <th className="py-2 pr-3">Visits</th>
+                <th className="py-2">Favorites</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '4,558', visits: '22.8M', favs: '44.2K' },
+                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '4,258', visits: '7.0M', favs: '25.8K' },
+                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '3,433', visits: '2.1M', favs: '130.0K' },
+                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '541', visits: '30.8M', favs: '96.0K' },
+                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '482', visits: '18.9M', favs: '46.6K' },
+                { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: '389', visits: '27.6M', favs: '62.3K' },
+                { name: 'Verity RP', creator: 'RP', playing: '311', visits: '12.8M', favs: '146.3K' },
+                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '52', visits: '28.4M', favs: '77.7K' },
+              ].map((g) => (
+                <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
+                  <td className="py-2 pr-3 font-bold whitespace-nowrap">{g.name}</td>
+                  <td className="py-2 pr-3 text-gray-500 whitespace-nowrap">{g.creator}</td>
+                  <td className="py-2 pr-3 font-mono tabular">{g.playing}</td>
+                  <td className="py-2 pr-3 font-mono tabular">{g.visits}</td>
+                  <td className="py-2 font-mono tabular">{g.favs}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The striking takeaway: the original <strong>Verity™</strong> has cooled to roughly 50 concurrent players
+          while the ecosystem it inspired is busier than ever. <strong>Build Base to Survive VERITY</strong> and{' '}
+          <strong>Verity&apos;s Game</strong> now carry the name&apos;s traffic — which is why this page tracks both the
+          original and the spinoffs.
+        </p>
+
         <h2>What We&apos;re Tracking</h2>
         <p>
           No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 18).

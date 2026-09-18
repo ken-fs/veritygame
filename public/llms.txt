@@ -1,16 +1,19 @@
 # Verity Guide (veritysgame.xyz)
 
-> Fan-made companion site for Verity (Roblox) by The ROBO Studio! and the Verity universe, including the trending Verity's Game by Slime Time Studios.
+> Fan-made companion site for the Roblox game Verity by The ROBO Studio! (28M+ visits). All 6 badges, Good Ending book locations, full 3-day walkthrough, characters and lore — plus the wider Verity universe (Verity's Game, Build Base to Survive VERITY, Escape Verity) tracked with live Roblox data.
 
 ## Key Pages
 
-- /badges — All 6 Verity badges with exact unlock steps (I'm Verity!, Lovity, Bority, I'm Falsity!, Good/Bad Ending)
-- /good-ending — Good Ending guide: all 6 book locations incl. the hidden black book, lab sequence, freeze bug workaround
-- /walkthrough — Full 3-day walkthrough (chop, mine, tower, final night)
-- /characters — Verity, Falsity, Barity, Lovity, Bority lore and how to find each
-- /veritys-game — The trending Verity's Game (Slime Time Studios) tracker
-- /codes — Code status for all Verity games (none exist; monitored daily)
+- /badges — All 6 badges with live Roblox award counts (Bority is the rarest at ~39K awards)
+- /good-ending — All 6 book locations including the hidden black book, lab sequence and freeze-bug workaround
+- /walkthrough — Day-by-day 3-day survival walkthrough with resource counts
+- /characters — Verity, Falsity, Barity, Lovity and Bority explained
+- /veritys-game — Verity's Game (Slime Time Studios) guide plus the full Verity ecosystem compared
+- /which-verity — Disambiguation: eight Roblox games use the Verity name, compared with live player counts
+- /faq — Every common question answered (badges, endings, story, codes, other Verity games)
+- /codes — Code status for every Verity game (only Build Base to Survive VERITY has working codes)
 
 ## Data Policy
 
-All content verified against community guides and full-playthrough footage. Bugs (like the Good Ending freeze) are documented with workarounds.
+Badge counts and game statistics come from the Roblox public APIs. Gameplay details are sourced from
+full-playthrough video subtitles and community verification. Unverified claims are explicitly marked as unverified.

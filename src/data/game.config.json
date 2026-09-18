@@ -5,14 +5,14 @@
     "developer": "The ROBO Studio!",
     "genre": "Horror / Story",
     "currentVersion": "Good Ending Update",
-    "lastUpdated": "2026-09-14",
+    "lastUpdated": "2026-07-17",
     "platforms": ["PC", "Mobile", "Tablet", "Console"]
   },
   "stats": {
-    "visits": "28.3M+",
+    "visits": "28.4M+",
     "favorites": "77K+",
-    "onlineNow": "3,200+",
-    "serverSize": 1,
+    "onlineNow": "40",
+    "serverSize": 40,
     "active": true
   },
   "seo": {
@@ -31,6 +31,8 @@
     { "path": "/characters", "title": "Characters", "priority": "0.8" },
     { "path": "/veritys-game", "title": "Verity's Game", "priority": "0.8" },
     { "path": "/codes", "title": "Codes", "priority": "0.7" },
+    { "path": "/which-verity", "title": "Which Verity Game?", "priority": "0.8" },
+    { "path": "/faq", "title": "Verity FAQ", "priority": "0.7" },
     { "path": "/about", "title": "About", "priority": "0.3" },
     { "path": "/terms", "title": "Terms", "priority": "0.2" },
     { "path": "/privacy-policy", "title": "Privacy Policy", "priority": "0.2" }

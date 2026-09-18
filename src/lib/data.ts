@@ -9,6 +9,7 @@ export interface Badge {
   slug: string;
   name: string;
   difficulty: string;
+  awarded?: number;
   howTo: string;
   missable: boolean;
   warning?: string;
