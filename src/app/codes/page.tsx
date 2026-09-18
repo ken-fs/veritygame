@@ -79,18 +79,24 @@ export default function CodesPage() {
         <p>
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
-          at night. Its working codes, cross-verified September 2026:
+          at night. Its active codes, cross-verified against TechWiser, Pro Game Guides and TryHardGuides (all
+          updated September 13, 2026):
         </p>
         <ul>
-          <li><code>GODITY</code> — 10 Barrier Blocks</li>
-          <li><code>UPDATE2</code> — 10 Bedrock</li>
-          <li><code>MANIPULITY</code> — 15 Crying Obsidian</li>
+          <li><code>VOIDITY</code> — 10 Barrier Blocks <strong>(new — reported to expire Sept 19)</strong></li>
+          <li><code>UPDATE4</code> — 50 Crying Obsidian <strong>(new)</strong></li>
+          <li><code>DAILYQUESTS</code> — Forcefield <strong>(new)</strong></li>
+          <li><code>OGplayer67</code> — free rewards (limited to the first 5,000 players)</li>
           <li><code>CODES</code> — $500 cash</li>
+          <li><code>UPDATE3</code> — 10 Bedrock <em>(Pro Game Guides only)</em></li>
+          <li><code>WEEKLY</code> — Forcefield <em>(Pro Game Guides only)</em></li>
+          <li><code>OBESITY</code> — 10 Barrier Blocks <em>(Pro Game Guides only)</em></li>
         </ul>
         <p>
-          RobloxDen additionally reports VOIDITY, UPDATE4, DAILYQUESTS, WEEKLY and more as active — unverified on our
-          side, try them in-game. Expired: THXFOR1M, CURIOSITYUPD, 10000PLAYERS. To redeem: Store button (left of the
-          screen) → code box at the bottom → Enter.
+          Conflicting reports: GODITY, UPDATE2, MANIPULITY and ROBLOXDOWN are still listed as active by TechWiser but
+          already moved to expired by Pro Game Guides — try them in-game, worst case it says invalid. Expired
+          everywhere: THXFOR1M, CURIOSITYUPD, 10000PLAYERS. To redeem: Store button (left of the screen) → scroll to
+          the FREE STUFF section → code box → Enter.
         </p>
       </section>
 

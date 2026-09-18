@@ -77,12 +77,12 @@ export default function VeritysGamePage() {
           <li><strong>Verity&apos;s Game</strong> — Slime Time Studios — the trending new entry (this page).</li>
           <li><strong>Escape Verity</strong> — Mind Blowing Productions — escape-format spinoff; Chapter 3 released August 2026 (full Ch1–3 walkthroughs already on YouTube).</li>
           <li><strong>Build Base to Survive VERITY</strong> — base-defense spinoff where Verity attacks at night; the only Verity-universe game with <a href="/codes">working codes</a>.</li>
-          <li><strong>Verity Companion [AI]</strong> — chat-focused spinoff.</li>
+          <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending (official game description, Sept 2026).</li>
           <li><strong>Verity Part 2</strong> — Umek0 Games — fan-made story continuation; its Part 2 update landed August 2026 with full walkthroughs already on YouTube. Not an official sequel — The ROBO Studio! has announced no Chapter 2 for the original.</li>
         </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
-          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 14).
+          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 18).
           These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>

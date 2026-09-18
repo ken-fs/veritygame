@@ -29,6 +29,7 @@
 
 ## 运营日志
 
+- 2026-09-18：Build Base to Survive VERITY codes 轮换 → 重写 /codes 列表：新码 VOIDITY（报 9/19 过期）/UPDATE4/DAILYQUESTS/OGplayer67 经 TechWiser+ProGameGuides+TryHardGuides 三源交叉；GODITY/UPDATE2/MANIPULITY/ROBLOXDOWN 状态分歧已标注。Verity Companion 官方描述 Update 1（新结局+消息上限 40）→ /veritys-game 宇宙行补注。Verity's Game 攻略内容仍为 0（aprasi 科普文仅官方描述派生，无实据），监控日期更新至 9/18。
 - 2026-09-17：发现 fan-made「Verity Part 2」（Umek0 Games，8月 Part 2 更新，YouTube 全流程攻略已出）→ 已加入 /veritys-game 宇宙清单并做非官方消歧。Verity's Game 攻略内容仍为 0，codes 仍无。
 
 ## 收录状态
