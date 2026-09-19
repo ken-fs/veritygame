@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity's Game (Roblox) — ${getCurrentDateString()} Guide & What We Know`,
   description:
-    "Verity's Game by Slime Time Studios is the trending new Roblox box-hunting game (3M+ visits in two weeks): a field of cash boxes, incredibly rare finds, and a smiley sphere watching. What we know, tracked daily.",
+    "Verity's Game by Slime Time Studios is now the #1 most-played Verity game on Roblox (7.9M+ visits, 9K+ concurrent in two weeks): a field of cash boxes, incredibly rare finds, and a smiley sphere watching. What we know, tracked daily.",
   keywords: ["verity's game", "verity's game roblox", "veritys game", "verity game roblox", "new verity game", "verity's game boxes", "verity's game gameplay"],
   path: '/veritys-game',
 });
@@ -18,7 +18,7 @@ export default function VeritysGamePage() {
     {
       question: "What is Verity's Game on Roblox?",
       answer:
-        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 3 million visits in under two weeks with 3,000+ concurrent players on 5-player servers.",
+        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 7.9 million visits within two weeks of release and hit 9,000+ concurrent players on 5-player servers — currently the most-played Verity game on Roblox.",
     },
     {
       question: "Is Verity's Game the same as Verity?",
@@ -35,9 +35,9 @@ export default function VeritysGamePage() {
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios (verified group, 4.5M+ members)</strong></div>
-          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">Trending — 4.2K online, 7M+ visits, 25.8K favorites</strong></div>
+          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">#1 Verity game — 9.3K online, 7.9M+ visits, 28.7K favorites</strong></div>
           <div><span className="text-gray-500">Genre:</span> <strong>Box-hunting / collection (horror-comedy wink)</strong></div>
-          <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 18)</strong></div>
+          <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 19)</strong></div>
           <div><span className="text-gray-500">Servers:</span> <strong>5 players</strong></div>
           <div><span className="text-gray-500">Codes:</span> <strong>None confirmed (checked daily)</strong></div>
         </div>
@@ -61,9 +61,9 @@ export default function VeritysGamePage() {
           smiley-face sphere looming over a tiny player, watching its boxes.
         </p>
         <p>
-          The numbers are real: released September 4, 2026, it passed <strong>7 million visits</strong> and{' '}
-          <strong>4,200 concurrent players</strong> in two weeks (Roblox public API snapshot, Sept 18) — on tiny
-          5-player servers. Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
+          The numbers are real: released September 4, 2026, it passed <strong>7.9 million visits</strong> and{' '}
+          <strong>9,200 concurrent players</strong> within two weeks (Roblox public API snapshot, Sept 19) — on tiny
+          5-player servers, overtaking Build Base to Survive VERITY as the busiest game using the Verity name. Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
           <strong>no official Discord, Trello or social channels</strong> yet.
         </p>
         <p>
@@ -81,7 +81,7 @@ export default function VeritysGamePage() {
         </ul>
         <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
         <p className="not-prose text-sm text-gray-500">
-          All eight Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 18 2026 —{' '}
+          All eight Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 19 2026 —{' '}
           <a href="/which-verity" className="underline">full comparison with what each game is</a>.
         </p>
         <div className="overflow-x-auto not-prose">
@@ -97,14 +97,14 @@ export default function VeritysGamePage() {
             </thead>
             <tbody>
               {[
-                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '4,558', visits: '22.8M', favs: '44.2K' },
-                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '4,258', visits: '7.0M', favs: '25.8K' },
-                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '3,433', visits: '2.1M', favs: '130.0K' },
-                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '541', visits: '30.8M', favs: '96.0K' },
-                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '482', visits: '18.9M', favs: '46.6K' },
-                { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: '389', visits: '27.6M', favs: '62.3K' },
-                { name: 'Verity RP', creator: 'RP', playing: '311', visits: '12.8M', favs: '146.3K' },
-                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '52', visits: '28.4M', favs: '77.7K' },
+                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '9,264', visits: '7.9M', favs: '28.7K' },
+                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '6,593', visits: '23.2M', favs: '45.0K' },
+                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '4,934', visits: '2.6M', favs: '152.1K' },
+                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '1,232', visits: '30.9M', favs: '96.7K' },
+                { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: '772', visits: '27.7M', favs: '62.5K' },
+                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '727', visits: '19.1M', favs: '46.8K' },
+                { name: 'Verity RP', creator: 'RP', playing: '605', visits: '12.9M', favs: '147.0K' },
+                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '74', visits: '28.4M', favs: '77.7K' },
               ].map((g) => (
                 <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
                   <td className="py-2 pr-3 font-bold whitespace-nowrap">{g.name}</td>
@@ -118,15 +118,14 @@ export default function VeritysGamePage() {
           </table>
         </div>
         <p>
-          The striking takeaway: the original <strong>Verity™</strong> has cooled to roughly 50 concurrent players
-          while the ecosystem it inspired is busier than ever. <strong>Build Base to Survive VERITY</strong> and{' '}
-          <strong>Verity&apos;s Game</strong> now carry the name&apos;s traffic — which is why this page tracks both the
-          original and the spinoffs.
+          The striking takeaway: the original <strong>Verity™</strong> has cooled to under 100 concurrent players
+          while <strong>Verity&apos;s Game</strong> has overtaken <strong>Build Base to Survive VERITY</strong> as the
+          busiest game using the name — which is why this page tracks both the original and the spinoffs.
         </p>
 
         <h2>What We&apos;re Tracking</h2>
         <p>
-          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 18).
+          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 19).
           These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>
@@ -134,7 +133,7 @@ export default function VeritysGamePage() {
           <li><strong>The smiley sphere</strong> — what the giant yellow face in the artwork actually does in gameplay</li>
           <li><strong>Stealing</strong> — whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style</li>
           <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
-          <li><strong>Updates</strong> — last game update Sept 13, 2026; new content drops land here first</li>
+          <li><strong>Updates</strong> — last game update Sept 19, 2026 (contents still being documented — no official changelog); new content drops land here first</li>
         </ul>
         <p>
           New to the sphere universe? The original&apos;s <a href="/walkthrough">3-day walkthrough</a> is the fastest
