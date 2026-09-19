@@ -27,6 +27,8 @@
     { "path": "/", "title": "Verity Guide", "priority": "1.0" },
     { "path": "/badges", "title": "All 6 Badges", "priority": "0.9" },
     { "path": "/good-ending", "title": "Good Ending Guide", "priority": "0.9" },
+    { "path": "/endings", "title": "All Endings", "priority": "0.9" },
+    { "path": "/black-book", "title": "Black Book Location", "priority": "0.9" },
     { "path": "/walkthrough", "title": "Full Walkthrough", "priority": "0.9" },
     { "path": "/characters", "title": "Characters", "priority": "0.8" },
     { "path": "/veritys-game", "title": "Verity's Game", "priority": "0.8" },

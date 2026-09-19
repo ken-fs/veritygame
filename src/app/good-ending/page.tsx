@@ -119,7 +119,7 @@ export default function GoodEndingPage() {
               </tr>
               <tr>
                 <td className="py-2 pr-3 font-bold whitespace-nowrap">6 (black)</td>
-                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400">Hidden near your house</td>
+                <td className="py-2 pr-3 text-gray-600 dark:text-gray-400"><Link href="/black-book">Hidden near your house</Link></td>
                 <td className="py-2 text-gray-600 dark:text-gray-400"><strong>The one that decides your ending.</strong> It is dark against a dark background, has no arrow marker, and you walk past it every single day without knowing</td>
               </tr>
             </tbody>
@@ -158,6 +158,9 @@ export default function GoodEndingPage() {
         </p>
 
         <h2>Good Ending vs Bad Ending</h2>
+        <p>
+          Both endings side by side, plus the two-run strategy for completionists: <Link href="/endings">all endings guide</Link>.
+        </p>
         <div className="overflow-x-auto not-prose">
           <table className="w-full text-sm border-collapse my-4">
             <thead>

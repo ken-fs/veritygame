@@ -57,7 +57,7 @@ export default function WalkthroughPage() {
           <li>Go up the tower stairs and try to sleep — <strong>Verity appears</strong>, faceless.</li>
           <li><strong>Move slowly and watch for his twitch.</strong> Get too close and he chases you. He <strong>cannot climb stairs</strong> — the tower is your safe spot.</li>
           <li>Run (or jump) home and start the <strong>book hunt</strong> — arrows mark most locations.</li>
-          <li>Collect <strong>all 6 books</strong> — including the <strong>black book near the house</strong> — <em>before</em> entering the house. See the <Link href="/good-ending">Good Ending guide</Link> for all locations.</li>
+          <li>Collect <strong>all 6 books</strong> — including the <Link href="/black-book"><strong>black book near the house</strong></Link> — <em>before</em> entering the house. See the <Link href="/good-ending">Good Ending guide</Link> for all locations.</li>
           <li>Enter the house: 6 books → <strong>Good Ending</strong> path (lab → room 3 → pickaxe the wall → destroy the anchor). 5 or fewer → <strong>Bad Ending</strong>.</li>
         </ol>
 

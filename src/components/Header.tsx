@@ -6,7 +6,9 @@ const config = getGameConfig();
 
 const NAV = [
   { href: '/badges', label: 'All Badges' },
+  { href: '/endings', label: 'All Endings' },
   { href: '/good-ending', label: 'Good Ending' },
+  { href: '/black-book', label: 'Black Book' },
   { href: '/walkthrough', label: 'Walkthrough' },
   { href: '/characters', label: 'Characters' },
   { href: '/veritys-game', label: "Verity's Game" },
