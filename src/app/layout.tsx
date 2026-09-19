@@ -54,6 +54,7 @@ gtag('config', 'G-2RKS649CNY');`}
       <body className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 antialiased font-body">
         <a href="#main" className="skip-link">Skip to content</a>
         <Header />
+        <AdBanner adKey="df81ebe011d5b47618d6beccbea7bc68" width={728} height={90} />
         <main id="main" className="min-h-[calc(100vh-180px)]">{children}</main>
         <AdBanner />
         <Footer />
