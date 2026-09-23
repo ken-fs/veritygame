@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity's Game (Roblox) — ${getCurrentDateString()} Guide & What We Know`,
   description:
-    "Verity's Game by Slime Time Studios is still the #1 most-played Verity game on Roblox (11.6M+ visits in under three weeks): a field of cash boxes, incredibly rare finds, and a smiley sphere watching. What we know, tracked daily.",
+    "Verity's Game by Slime Time Studios passed 12M visits in three weeks — now the #2 Verity game after Steal A Verity! overtook it on Sept 23. A field of cash boxes, incredibly rare finds, and a smiley sphere watching. Tracked daily.",
   keywords: ["verity's game", "verity's game roblox", "veritys game", "verity game roblox", "new verity game", "verity's game boxes", "verity's game gameplay"],
   path: '/veritys-game',
 });
@@ -18,7 +18,7 @@ export default function VeritysGamePage() {
     {
       question: "What is Verity's Game on Roblox?",
       answer:
-        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 11.5 million visits in under three weeks; concurrent players peaked above 9,000 and cooled to around 4,400 on 5-player servers — still the most-played Verity game on Roblox.",
+        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 12 million visits in three weeks; concurrent players peaked above 9,200 on Sept 19 and cooled to around 3,600 on 5-player servers — on Sept 23, Steal A Verity! (5.4K online) overtook it as the most-played Verity game on Roblox.",
     },
     {
       question: "Is Verity's Game the same as Verity?",
@@ -35,7 +35,7 @@ export default function VeritysGamePage() {
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios (verified group, 4.5M+ members)</strong></div>
-          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">#1 Verity game — 4.4K online, 11.6M+ visits, 41.6K favorites</strong></div>
+          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">#2 Verity game — 3.6K online, 12M+ visits, 43.2K favorites (Steal A Verity! took #1 on Sept 23)</strong></div>
           <div><span className="text-gray-500">Genre:</span> <strong>Box-hunting / collection (horror-comedy wink)</strong></div>
           <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 21)</strong></div>
           <div><span className="text-gray-500">Servers:</span> <strong>5 players</strong></div>
@@ -61,10 +61,11 @@ export default function VeritysGamePage() {
           smiley-face sphere looming over a tiny player, watching its boxes.
         </p>
         <p>
-          The numbers are real: released September 4, 2026, it passed <strong>11.6 million visits</strong> in under
-          three weeks; concurrent players peaked above <strong>9,200</strong> on Sept 19 and have since cooled to
-          ~4,400 (Roblox public API snapshot, Sept 22) — on tiny 5-player servers, still the busiest game using the
-          Verity name. Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
+          The numbers are real: released September 4, 2026, it passed <strong>12 million visits</strong> in three
+          weeks; concurrent players peaked above <strong>9,200</strong> on Sept 19 and have since cooled to
+          ~3,600 (Roblox public API snapshot, Sept 23) — on tiny 5-player servers. On Sept 23, Steal A Verity!
+          (5.4K online) passed it as the busiest game using the Verity name — the first time Verity&apos;s Game
+          has not led the ecosystem. Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
           <strong>no official Discord, Trello or social channels</strong> yet.
         </p>
         <p>
@@ -82,7 +83,7 @@ export default function VeritysGamePage() {
         </ul>
         <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
         <p className="not-prose text-sm text-gray-500">
-          All eight Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 22 2026 —{' '}
+          All eight Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 23 2026 —{' '}
           <a href="/which-verity" className="underline">full comparison with what each game is</a>.
         </p>
         <div className="overflow-x-auto not-prose">
@@ -98,14 +99,14 @@ export default function VeritysGamePage() {
             </thead>
             <tbody>
               {[
-                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '4,382', visits: '11.6M', favs: '41.6K' },
-                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '3,637', visits: '4.2M', favs: '218.2K' },
-                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '2,736', visits: '25.1M', favs: '48.4K' },
-                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '385', visits: '31.7M', favs: '99.2K' },
-                { name: 'Verity RP', creator: 'RP', playing: '323', visits: '13.3M', favs: '149.6K' },
-                { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: '313', visits: '28.0M', favs: '63.1K' },
-                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '311', visits: '19.5M', favs: '47.8K' },
-                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '15', visits: '28.5M', favs: '77.8K' },
+                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '5,432', visits: '4.8M', favs: '250.9K' },
+                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '3,608', visits: '12M', favs: '43.2K' },
+                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '2,893', visits: '25.5M', favs: '49.1K' },
+                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '460', visits: '31.8M', favs: '99.7K' },
+                { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: '350', visits: '28.2M', favs: '63.3K' },
+                { name: 'Verity RP', creator: 'RP', playing: '317', visits: '13.4M', favs: '150.4K' },
+                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '253', visits: '19.6M', favs: '48K' },
+                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '34', visits: '28.5M', favs: '77.8K' },
               ].map((g) => (
                 <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
                   <td className="py-2 pr-3 font-bold whitespace-nowrap">{g.name}</td>
@@ -120,14 +121,16 @@ export default function VeritysGamePage() {
         </div>
         <p>
           The striking takeaway: the original <strong>Verity™</strong> has cooled to under 100 concurrent players
-          while <strong>Verity&apos;s Game</strong> stays the busiest game using the name — though its own concurrent
-          count has also cooled from a 9,200+ peak to ~4,400. Steal A Verity! has climbed past Build Base to Survive
-          VERITY into second place, which is why this page tracks the whole ecosystem, not just the original.
+          while <strong>Steal A Verity!</strong> — freshly updated on Sept 22 — surged to 5.4K players and 251K
+          favorites (the most-favorited game in the ecosystem), taking the #1 spot from{' '}
+          <strong>Verity&apos;s Game</strong> on Sept 23. Verity&apos;s Game has cooled from its 9,200+ peak to ~3,600
+          but still adds visits faster than any spinoff (12M in three weeks) — which is why this page tracks the
+          whole ecosystem, not just the original.
         </p>
 
         <h2>What We&apos;re Tracking</h2>
         <p>
-          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 22).
+          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 23).
           These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>

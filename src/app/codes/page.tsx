@@ -79,23 +79,23 @@ export default function CodesPage() {
         <p>
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
-          at night. Its active codes, cross-verified against GameRant (updated Sept 14), RobloxDen (checked Sept 18),
-          TechWiser and Pro Game Guides:
+          at night. Its active codes, cross-verified against RobloxDen and TechWiser (both checked Sept 23 —
+          the game pushed a &quot;[LORD]&quot; update today, and new codes typically land with updates):
         </p>
         <ul>
-          <li><code>WMEMBER67</code> — building materials (3 Mystery Boxes per RobloxDen) <strong>(new)</strong></li>
-          <li><code>VOIDITY</code> — 10 Barrier Blocks <strong>(new — reported to expire Sept 19, still listed active as of Sept 18)</strong></li>
-          <li><code>UPDATE4</code> — 50 Crying Obsidian <strong>(new)</strong></li>
-          <li><code>DAILYQUESTS</code> — Forcefield <strong>(new)</strong></li>
+          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(new — RobloxDen only so far, Sept 23)</strong></li>
+          <li><code>WMEMBER67</code> — building materials (3 Mystery Boxes per RobloxDen)</li>
+          <li><code>VOIDITY</code> — 10 Barrier Blocks <strong>(the reported Sept 19 expiry never happened — still active on RobloxDen and TechWiser, Sept 23)</strong></li>
+          <li><code>UPDATE4</code> — 50 Crying Obsidian</li>
+          <li><code>DAILYQUESTS</code> — Forcefield (RobloxDen says 1 Verity Turret — sources disagree on the reward)</li>
           <li><code>OGplayer67</code> — free rewards (limited to the first 5,000 players)</li>
           <li><code>CODES</code> — $500 cash</li>
           <li><code>UPDATE3</code> — 10 Bedrock</li>
-          <li><code>WEEKLY</code> — Forcefield</li>
           <li><code>OBESITY</code> — 10 Barrier Blocks</li>
         </ul>
         <p>
-          Fading codes: GODITY, UPDATE2, MANIPULITY and ROBLOXDOWN — GameRant and Pro Game Guides now list the first
-          three as expired while TechWiser and Dexerto still show them active (RobloxDen: unverified) — try them
+          Fading codes: GODITY, UPDATE2, MANIPULITY, ROBLOXDOWN and WEEKLY — TechWiser still lists the first four
+          as active, but RobloxDen moved all five to &quot;check&quot; (unverified) on Sept 23 — try them
           in-game, worst case it says invalid. Expired everywhere: THXFOR1M, CURIOSITYUPD, 10000PLAYERS. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
         </p>
