@@ -79,26 +79,26 @@ export default function CodesPage() {
         <p>
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
-          at night. The game updated again on Sept 26 (a 💪 tag in the title) and concurrent players doubled to ~7,300
-          within a day. Its active codes, cross-verified against RobloxDen (re-checked Sept 26, after the update) and
-          TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          at night. It updated again on Sept 28 (the 💪 tag in the title), two days after the Sept 26 update
+          doubled concurrent players to ~7,300. Its active codes, cross-verified against RobloxDen (re-checked Sept 28)
+          and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
-          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active; still unlisted on TechWiser, checked Sept 27)</strong></li>
-          <li><code>WMEMBER67</code> — 3 Mystery Boxes <strong>(RobloxDen active; still unlisted on TechWiser, Sept 27)</strong></li>
-          <li><code>UPDATE4</code> — 50 Crying Obsidian (both sources)</li>
-          <li><code>DAILYQUESTS</code> — <strong>restored on RobloxDen as active Sept 26</strong> — reward listed as 1 Verity Turret (TechWiser says Forcefield — sources differ)</li>
+          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
+          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active; still unlisted on TechWiser, checked Sept 28)</strong></li>
+          <li><code>WMEMBER67</code> — 3 Mystery Boxes <strong>(RobloxDen active; still unlisted on TechWiser, Sept 28)</strong></li>
+          <li><code>DAILYQUESTS</code> — 1 Verity Turret per RobloxDen (TechWiser says Forcefield — sources differ)</li>
           <li><code>CODES</code> — $500 cash</li>
-          <li><code>UPDATE3</code> — 10 Bedrock (RobloxDen active; TechWiser doesn&apos;t list it)</li>
         </ul>
         <p>
           Still conflicting: <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen removed
-          it entirely (it was capped at the first 5,000 players, so it is most likely exhausted). Newly fading:
-          <code>VOIDITY</code> and <code>OBESITY</code> — both were active as of Sept 25, but RobloxDen moved them to
-          &quot;check&quot; after the Sept 26 update, so try them in-game before assuming they&apos;re dead. Also on
-          RobloxDen&apos;s &quot;check&quot; list: GODITY, UPDATE2, MANIPULITY, ROBLOXDOWN and WEEKLY — worst case the game
-          says invalid. Expired on TechWiser (parked under &quot;check&quot; at RobloxDen): THXFOR1M, CURIOSITYUPD and
-          10000PLAYERS. To redeem:
+          it entirely (it was capped at the first 5,000 players, so it is most likely exhausted). After the Sept 28
+          update RobloxDen demoted <code>UPDATE4</code> (50 Crying Obsidian) to &quot;check&quot; and dropped
+          <code> UPDATE3</code> and <code>OBESITY</code> from its list entirely — try them in-game before assuming
+          they&apos;re dead. <code>ROBLOXDOWN</code> is now confirmed expired there. The rest of RobloxDen&apos;s
+          &quot;check&quot; list: VOIDITY, UPDATE2, MANIPULITY, WEEKLY and GODITY, plus THXFOR1M and CURIOSITYUPD
+          (both expired on TechWiser; 10000PLAYERS fell off RobloxDen&apos;s list too) — worst case the game
+          says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
         </p>
       </section>
