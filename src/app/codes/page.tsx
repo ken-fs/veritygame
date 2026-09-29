@@ -79,25 +79,28 @@ export default function CodesPage() {
         <p>
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
-          at night. It updated again on Sept 28 (the 💪 tag in the title), two days after the Sept 26 update
-          doubled concurrent players to ~7,300. Its active codes, cross-verified against RobloxDen (re-checked Sept 28)
-          and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
+          Sept 26 update doubled concurrent players to ~7,300. Its active codes, cross-verified against RobloxDen
+          (re-checked Sept 29) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
-          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
-          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active; still unlisted on TechWiser, checked Sept 28)</strong></li>
-          <li><code>WMEMBER67</code> — 3 Mystery Boxes <strong>(RobloxDen active; still unlisted on TechWiser, Sept 28)</strong></li>
-          <li><code>DAILYQUESTS</code> — 1 Verity Turret per RobloxDen (TechWiser says Forcefield — sources differ)</li>
+          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
+          <li><code>MOGGITY</code> — 10 Barrier <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
+          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
+          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
+          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active, now flagged &quot;New Code&quot;; still unlisted on TechWiser, checked Sept 29)</strong></li>
           <li><code>CODES</code> — $500 cash</li>
         </ul>
         <p>
-          Still conflicting: <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen removed
-          it entirely (it was capped at the first 5,000 players, so it is most likely exhausted). After the Sept 28
-          update RobloxDen demoted <code>UPDATE4</code> (50 Crying Obsidian) to &quot;check&quot; and dropped
-          <code> UPDATE3</code> and <code>OBESITY</code> from its list entirely — try them in-game before assuming
-          they&apos;re dead. <code>ROBLOXDOWN</code> is now confirmed expired there. The rest of RobloxDen&apos;s
-          &quot;check&quot; list: VOIDITY, UPDATE2, MANIPULITY, WEEKLY and GODITY, plus THXFOR1M and CURIOSITYUPD
-          (both expired on TechWiser; 10000PLAYERS fell off RobloxDen&apos;s list too) — worst case the game
+          RobloxDen&apos;s latest pass demoted <code>WMEMBER67</code> (3 Mystery Boxes) and <code>DAILYQUESTS</code>{" "}
+          (1 Verity Turret per RobloxDen — TechWiser says Forcefield, sources differ) to &quot;check&quot;, while{" "}
+          <code>Update3</code> (10 Bedrock) and <code>Obesity</code> (10 Barrier) are back on the list at &quot;check&quot;
+          after being dropped a day earlier. <code>UPDATE4</code> (50 Crying Obsidian) stays at &quot;check&quot;, and{" "}
+          <code>GODITY</code> and <code>UPDATE2</code> have slipped to expired. Still conflicting:{" "}
+          <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen has removed it entirely
+          (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
+          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. The rest of the
+          &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
           says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
         </p>
