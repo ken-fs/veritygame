@@ -91,7 +91,7 @@ const SECTIONS = [
       },
       {
         q: 'How many different Verity games are there?',
-        a: 'At least eight Roblox games use the Verity name, including Verity™ (the original), Verity\'s Game, Build Base to Survive VERITY, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC], Steal A Verity! and Verity RP. Our which-Verity page compares all of them with live player counts.',
+        a: 'At least ten Roblox games use the Verity name, including Verity™ (the original), Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC], Steal A Verity!, Verity RP and Is It Verity?. Our which-Verity page compares all of them with live player counts.',
       },
     ],
   },

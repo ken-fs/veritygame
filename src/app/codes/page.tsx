@@ -80,15 +80,15 @@ export default function CodesPage() {
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
           at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
-          Sept 26 update doubled concurrent players to ~7,300. Its active codes, cross-verified against RobloxDen
-          (re-checked Sept 29) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes. Its active codes, cross-verified against RobloxDen
+          (re-checked Sept 30) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
           <li><code>Lord</code> — 67 Reinforced Diamond <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
           <li><code>MOGGITY</code> — 10 Barrier <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
           <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
           <li><code>UPDATE67</code> — 67 Bedrocks <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
-          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active, now flagged &quot;New Code&quot;; still unlisted on TechWiser, checked Sept 29)</strong></li>
+          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active, now flagged &quot;New Code&quot;; still unlisted on TechWiser, checked Sept 30)</strong></li>
           <li><code>CODES</code> — $500 cash</li>
         </ul>
         <p>
