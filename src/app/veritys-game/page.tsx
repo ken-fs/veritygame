@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity's Game (Roblox) — ${getCurrentDateString()} Guide & What We Know`,
   description:
-    "Verity's Game by Slime Time Studios passed 15.8M visits in 26 days — trading #2 with Survive Verity in Area 51 while Steal A Verity! holds #1 past 500K favorites. A field of cash boxes, incredibly rare finds, and a smiley sphere watching. Tracked daily.",
+    "Verity's Game by Slime Time Studios passed 16.1M visits in 27 days, cooling to #5 as Is It Verity? doubles to #2 and Steal A Verity! holds #1 past 575K favorites. A field of cash boxes, incredibly rare finds, and a smiley sphere watching. Tracked daily.",
   keywords: ["verity's game", "verity's game roblox", "veritys game", "verity game roblox", "new verity game", "verity's game boxes", "verity's game gameplay"],
   path: '/veritys-game',
 });
@@ -18,7 +18,7 @@ export default function VeritysGamePage() {
     {
       question: "What is Verity's Game on Roblox?",
       answer:
-        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 15.8 million visits in 26 days; concurrent players peaked above 9,200 on Sept 19 and sit around 2,600 as of Sept 30 — Steal A Verity! (8.3K online, 535K favorites after back-to-back [BOSS] updates) remains the most-played Verity game on Roblox, with Survive Verity in Area 51 (~2,700 online, 58.9M visits) the surprise #2.",
+        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 16.1 million visits in 27 days; concurrent players peaked above 9,200 on Sept 19 and cooled to ~2,100 as of Oct 1 (#5) — Steal A Verity! (10.7K online, 575K favorites) remains the most-played Verity game on Roblox, while newcomer Is It Verity? doubled overnight to ~3,100 and took #2, ahead of Survive Verity in Area 51 (~2,800).",
     },
     {
       question: "Is Verity's Game the same as Verity?",
@@ -35,7 +35,7 @@ export default function VeritysGamePage() {
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-8">
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div><span className="text-gray-500">Developer:</span> <strong>Slime Time Studios (verified group, 4.5M+ members)</strong></div>
-          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">#3 Verity game — 2.6K online, 15.8M visits, 55.0K favorites (Steal A Verity! #1 at 8.3K/535K favs; Area 51 edges #2 at 2.7K)</strong></div>
+          <div><span className="text-gray-500">Status:</span> <strong className="text-green-600">#5 Verity game — 2.1K online, 16.1M visits, 55.9K favorites (Steal A Verity! #1 at 10.7K/575K favs; Is It Verity? surges to #2 at 3.1K)</strong></div>
           <div><span className="text-gray-500">Genre:</span> <strong>Box-hunting / collection (horror-comedy wink)</strong></div>
           <div><span className="text-gray-500">Released:</span> <strong>September 4, 2026 (updated Sept 26)</strong></div>
           <div><span className="text-gray-500">Servers:</span> <strong>5 players</strong></div>
@@ -61,14 +61,14 @@ export default function VeritysGamePage() {
           smiley-face sphere looming over a tiny player, watching its boxes.
         </p>
         <p>
-          The numbers are real: released September 4, 2026, it passed <strong>15.8 million visits</strong> in 26 days;
-          concurrent players peaked above <strong>9,200</strong> on Sept 19 and sit at ~2,600 as of Sept 30 (Roblox
-          public API snapshot) — on tiny 5-player servers. Steal A Verity! answered with back-to-back [BOSS] updates
-          on Sept 24 and 27 and pulled away to ~8,300 online, crossing 500K favorites (535K on 13.5M visits), while
-          Build Base&apos;s Sept 28/29 updates faded fast (~2,300 online). And the discovery of the week:{' '}
-          <strong>Survive Verity in Area 51</strong> — 58.9M visits and 2.23M favorites, the most-visited and
-          most-favorited Verity game on Roblox — was sitting in plain sight at ~2,700 concurrent, edging
-          Verity&apos;s Game out of #2.
+          The numbers are real: released September 4, 2026, it passed <strong>16.1 million visits</strong> in 27 days;
+          concurrent players peaked above <strong>9,200</strong> on Sept 19 and cooled to ~2,100 as of Oct 1 (Roblox
+          public API snapshot) — on tiny 5-player servers. Steal A Verity! keeps pulling away: ~10,700 online after
+          its back-to-back [BOSS] updates, crossing 575K favorites on 15.1M visits (+1.6M visits in a single day),
+          while Build Base&apos;s late-September updates faded fast (~2,300 online). And the discovery of the week:{' '}
+          <strong>Survive Verity in Area 51</strong> — 59.3M visits and 2.24M favorites, the most-visited and
+          most-favorited Verity game on Roblox — was sitting in plain sight at ~2,800 concurrent, and one day after
+          its [⚫ECLIPSITY] event an Oct 1 update renamed it to [⏰SOON]🚪…🔦, teasing its next drop.
           Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
           <strong>no official Discord, Trello or social channels</strong> yet.
         </p>
@@ -80,14 +80,14 @@ export default function VeritysGamePage() {
         <ul>
           <li><strong>Verity™</strong> — The ROBO Studio! — the original (28M+ visits). <a href="/badges">Badges</a> · <a href="/good-ending">Good Ending</a></li>
           <li><strong>Verity&apos;s Game</strong> — Slime Time Studios — the trending new entry (this page).</li>
-          <li><strong>Escape Verity</strong> — Mind Blowing Productions — escape-format spinoff; Chapter 3 released August 2026 (full Ch1–3 walkthroughs already on YouTube). A &quot;Beat Chapter 4&quot; badge appeared on the Roblox badge API on Sept 19 with zero awards so far, and the game updated Sept 29 — Chapter 4 itself is not confirmed live.</li>
+          <li><strong>Escape Verity</strong> — Mind Blowing Productions — escape-format spinoff; Chapter 3 released August 2026 (full Ch1–3 walkthroughs already on YouTube). A &quot;Beat Chapter 4&quot; badge appeared on the Roblox badge API on Sept 19 — still zero awards as of Oct 1 — and the game updated again Sept 30: Chapter 4 itself is not confirmed live.</li>
           <li><strong>Build Base to Survive VERITY</strong> — base-defense spinoff where Verity attacks at night; the only Verity-universe game with <a href="/codes">working codes</a>.</li>
           <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending, and the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update (official description + live badge API, Sept 2026).</li>
           <li><strong>Verity Part 2</strong> — Umek0 Games — fan-made story continuation; its Part 2 update landed August 2026 with full walkthroughs already on YouTube. Not an official sequel — The ROBO Studio! has announced no Chapter 2 for the original.</li>
         </ul>
         <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
         <p className="not-prose text-sm text-gray-500">
-          All ten Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Sept 30 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
+          All ten Verity-named Roblox games, ranked by concurrent players. Snapshot from the Roblox games API, Oct 1 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
           <a href="/which-verity" className="underline">full comparison with what each game is</a>.
         </p>
         <div className="overflow-x-auto not-prose">
@@ -103,15 +103,15 @@ export default function VeritysGamePage() {
             </thead>
             <tbody>
               {[
-                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '8,342', visits: '13.5M', favs: '535.0K' },
-                { name: 'Survive Verity in Area 51', creator: 'Mochi Productions!', playing: '2,661', visits: '58.9M', favs: '2.23M' },
-                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '2,566', visits: '15.8M', favs: '55.0K' },
-                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '2,261', visits: '28.7M', favs: '54.8K' },
-                { name: 'Is It Verity?', creator: 'Prince Creations', playing: '1,664', visits: '2.5M', favs: '7.7K' },
-                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '364', visits: '33.0M', favs: '103.6K' },
-                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '264', visits: '20.3M', favs: '49.6K' },
-                { name: 'Verity RP', creator: 'RP', playing: '243', visits: '14.0M', favs: '155.2K' },
-                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '23', visits: '28.6M', favs: '78.0K' },
+                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '10,737', visits: '15.1M', favs: '575.4K' },
+                { name: 'Is It Verity?', creator: 'Prince Creations', playing: '3,117', visits: '3.0M', favs: '9.2K' },
+                { name: 'Survive Verity in Area 51', creator: 'Mochi Productions!', playing: '2,845', visits: '59.3M', favs: '2.24M' },
+                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '2,313', visits: '29.0M', favs: '55.4K' },
+                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '2,124', visits: '16.1M', favs: '55.9K' },
+                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '360', visits: '33.1M', favs: '104.0K' },
+                { name: 'Verity RP', creator: 'RP', playing: '308', visits: '14.1M', favs: '155.7K' },
+                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '246', visits: '20.3M', favs: '49.8K' },
+                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '16', visits: '28.6M', favs: '78.1K' },
                 { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: 'private', visits: '28.5M', favs: '63.7K' },
               ].map((g) => (
                 <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
@@ -126,21 +126,22 @@ export default function VeritysGamePage() {
           </table>
         </div>
         <p>
-          The striking takeaway: the original <strong>Verity™</strong> has cooled to under 30 concurrent players
-          while <strong>Steal A Verity!</strong> — after back-to-back [BOSS] updates on Sept 24 and 27 — holds #1 at
-          ~8.3K players and blew past 500K favorites (535K and climbing on 13.5M visits). But the real story is{' '}
-          <strong>Survive Verity in Area 51</strong>: 58.9M visits and 2.23M favorites make it the most-visited and
+          The striking takeaway: the original <strong>Verity™</strong> has cooled to under 20 concurrent players
+          while <strong>Steal A Verity!</strong> holds #1 at ~10.7K players and blew past 575K favorites on 15.1M
+          visits — adding ~1.6M visits in a single day, now out-pacing Verity&apos;s Game. But the real story is{' '}
+          <strong>Survive Verity in Area 51</strong>: 59.3M visits and 2.24M favorites make it the most-visited and
           most-favorited game in the ecosystem — double the original on visits — yet it has zero badges and zero
-          guide coverage, and every &quot;Verity games&quot; list (ours included) missed it until now.{' '}
-          <strong>Build Base to Survive VERITY</strong>&apos;s Sept 28/29 updates faded within a day each (~2,300),
-          and newcomer <strong>Is It Verity?</strong> (1v1 pattern duel, launched Sept 13) is already at ~1,700
-          concurrent. Verity&apos;s Game still adds visits faster than any spinoff
-          (15.8M in 26 days) — which is why this page tracks the whole ecosystem, not just the original.
+          guide coverage, and every &quot;Verity games&quot; list (ours included) missed it until now; its Oct 1
+          update added a [⏰SOON]🚪 tag teasing what&apos;s next. <strong>Build Base to Survive VERITY</strong>&apos;s
+          late-September updates faded within a day each (~2,300), and newcomer <strong>Is It Verity?</strong> (1v1
+          pattern duel, launched Sept 13) doubled overnight to ~3,100 concurrent — jumping from #5 to #2 and pushing
+          Verity&apos;s Game down to #5. The churn is exactly why this page tracks the whole ecosystem, not just the
+          original.
         </p>
 
         <h2>What We&apos;re Tracking</h2>
         <p>
-          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Sept 30).
+          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Oct 1).
           These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>
@@ -148,7 +149,7 @@ export default function VeritysGamePage() {
           <li><strong>The smiley sphere</strong> — what the giant yellow face in the artwork actually does in gameplay</li>
           <li><strong>Stealing</strong> — whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style</li>
           <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
-          <li><strong>Updates</strong> — last game update Sept 26, 2026 (the third in a week, after Sept 21 and 24): no description change, still zero badges (live badge API, Sept 30) and no official changelog — contents still undocumented; new content drops land here first</li>
+          <li><strong>Updates</strong> — last game update Sept 26, 2026 (the third in a week, after Sept 21 and 24): no description change, still zero badges (live badge API, Oct 1) and no official changelog — contents still undocumented; new content drops land here first</li>
         </ul>
         <p>
           New to the sphere universe? The original&apos;s <a href="/walkthrough">3-day walkthrough</a> is the fastest

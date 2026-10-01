@@ -18,7 +18,7 @@ export default function CodesPage() {
     {
       question: 'Are there any Verity codes?',
       answer:
-        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of September 2026. Sites listing 'working Verity codes' are covering Build Base to Survive VERITY, a different game — its real codes are listed below. This page is checked daily.",
+        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering Build Base to Survive VERITY, a different game — its real codes are listed below. This page is checked daily.",
     },
     {
       question: 'How do I get free stuff in Verity without codes?',
@@ -33,7 +33,7 @@ export default function CodesPage() {
     {
       question: "What about codes for Verity's Game (Slime Time Studios)?",
       answer:
-        "Verity's Game does not have codes either as of September 2026. We monitor both games daily and will update this page the moment any code system appears.",
+        "Verity's Game does not have codes either as of October 2026. We monitor both games daily and will update this page the moment any code system appears.",
     },
     {
       question: 'Where would Verity codes appear if they were added?',
@@ -81,7 +81,7 @@ export default function CodesPage() {
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
           at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
           Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes. Its active codes, cross-verified against RobloxDen
-          (re-checked Sept 30) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          (re-checked Oct 1) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
           <li><code>Lord</code> — 67 Reinforced Diamond <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
@@ -99,8 +99,10 @@ export default function CodesPage() {
           <code>GODITY</code> and <code>UPDATE2</code> have slipped to expired. Still conflicting:{" "}
           <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen has removed it entirely
           (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
-          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. The rest of the
-          &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
+          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. New on RobloxDen&apos;s Oct 1 pass:{" "}
+          <code>SORRY4NOCODES</code> (10 God Verity Bedrocks) at &quot;check&quot; — the name reads as the dev
+          apologizing for the quiet spell since the Sept 28 code wave; single source, not yet confirmed in-game.
+          The rest of the &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
           says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
         </p>
