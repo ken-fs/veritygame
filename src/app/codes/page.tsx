@@ -80,13 +80,15 @@ export default function CodesPage() {
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
           at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
-          Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes. Its active codes, cross-verified against RobloxDen
-          (re-checked Oct 1) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes, and the
+          Oct 1 evening update (19:33 UTC) shipped one more: <code>UPDATE67SPECIAL</code>. Its active codes, cross-verified against RobloxDen
+          (re-checked Oct 2) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
-          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(new — flagged &quot;New Code&quot; at RobloxDen&apos;s latest check; single source, not yet confirmed in-game)</strong></li>
-          <li><code>MOGGITY</code> — 10 Barrier <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
-          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(new — &quot;New Code&quot; at RobloxDen; single source)</strong></li>
+          <li><code>UPDATE67SPECIAL</code> — 50 Reinforced Obsidian Blocks <strong>(newest — added by RobloxDen&apos;s Oct 2 check after the Oct 1 update; single source, not yet confirmed in-game)</strong></li>
+          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
+          <li><code>MOGGITY</code> — 10 Barrier <strong>(&quot;New Code&quot; at RobloxDen; single source)</strong></li>
+          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(&quot;New Code&quot; at RobloxDen; single source)</strong></li>
           <li><code>UPDATE67</code> — 67 Bedrocks <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
           <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active, now flagged &quot;New Code&quot;; still unlisted on TechWiser, checked Sept 30)</strong></li>
           <li><code>CODES</code> — $500 cash</li>
@@ -99,9 +101,10 @@ export default function CodesPage() {
           <code>GODITY</code> and <code>UPDATE2</code> have slipped to expired. Still conflicting:{" "}
           <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen has removed it entirely
           (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
-          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. New on RobloxDen&apos;s Oct 1 pass:{" "}
+          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. RobloxDen&apos;s Oct 1 pass added:{" "}
           <code>SORRY4NOCODES</code> (10 God Verity Bedrocks) at &quot;check&quot; — the name reads as the dev
-          apologizing for the quiet spell since the Sept 28 code wave; single source, not yet confirmed in-game.
+          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 2 check kept it at
+          &quot;check&quot;: still single source, not yet confirmed in-game.
           The rest of the &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
           says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
