@@ -83,7 +83,7 @@ const SECTIONS = [
     items: [
       {
         q: 'Are there any Verity codes?',
-        a: 'No. Neither Verity nor Verity\'s Game has a code redemption system. Every "Verity codes" page on the internet is actually listing codes for Build Base to Survive VERITY — a different game. Our codes page separates the two.',
+        a: 'No. Neither Verity nor Verity\'s Game has a code redemption system. Almost every "Verity codes" page on the internet is actually listing codes for Build Base to Survive VERITY — a different game; the newer Verity Battles also has two official codes (RELEASE, VERITY). Our codes page separates them.',
       },
       {
         q: 'Is Verity\'s Game the same as Verity?',
@@ -91,7 +91,7 @@ const SECTIONS = [
       },
       {
         q: 'How many different Verity games are there?',
-        a: 'At least ten Roblox games use the Verity name, including Verity™ (the original), Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC], Steal A Verity!, Verity RP and Is It Verity?. Our which-Verity page compares all of them with live player counts.',
+        a: 'At least twelve Roblox games use the Verity name, including Verity™ (the original), Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC], Steal A Verity!, Verity RP, Is It Verity?, Escape Verity and Verity Battles. Our which-Verity page compares all of them with live player counts.',
       },
     ],
   },

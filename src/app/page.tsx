@@ -10,7 +10,7 @@ const GUIDES = [
   { href: '/walkthrough', emoji: '🗺️', title: 'Full 3-Day Walkthrough', desc: 'Day-by-day: chop, mine, build, survive the final night.' },
   { href: '/characters', emoji: '🟡', title: 'Characters', desc: 'Verity, Falsity, Barity, Lovity, Bority — every sphere explained.' },
   { href: '/veritys-game', emoji: '🎮', title: "Verity's Game", desc: 'The trending new Verity game by Slime Time Studios — what we know.' },
-  { href: '/which-verity', emoji: '🧭', title: 'Which Verity Game?', desc: 'Ten Roblox games share the name — live player counts for all of them.' },
+  { href: '/which-verity', emoji: '🧭', title: 'Which Verity Game?', desc: 'Twelve Roblox games share the name — live player counts for all of them.' },
   { href: '/faq', emoji: '❓', title: 'Verity FAQ', desc: 'Every common question: badges, endings, the freeze bug, codes.' },
   { href: '/codes', emoji: '🎁', title: 'Codes', desc: 'Any Verity codes? Status checked daily.' },
 ];
@@ -105,7 +105,7 @@ export default function HomePage() {
           <Link href="/characters">Falsity</Link> is not your friend. Probably.
         </p>
         <p>
-          Not sure you are even playing the right game? At least ten Roblox titles use the Verity name — the{' '}
+          Not sure you are even playing the right game? At least twelve Roblox titles use the Verity name — the{' '}
           <Link href="/which-verity">which Verity game</Link> page sorts them out with live player counts. And if a
           question is not covered here, the <Link href="/faq">FAQ</Link> answers the rest.
         </p>

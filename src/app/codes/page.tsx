@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity Codes (${getCurrentDateString()}) — Do Codes Exist?`,
   description:
-    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily — plus the real working codes for Build Base to Survive VERITY.",
+    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily — plus the real working codes for Build Base to Survive VERITY and Verity Battles.",
   keywords: ['verity codes', 'verity roblox codes', "verity's game codes", 'verity codes 2026'],
   path: '/codes',
 });
@@ -18,7 +18,7 @@ export default function CodesPage() {
     {
       question: 'Are there any Verity codes?',
       answer:
-        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering Build Base to Survive VERITY, a different game — its real codes are listed below. This page is checked daily.",
+        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering different games — Build Base to Survive VERITY and the newer Verity Battles (SMOOF Games), whose two codes are confirmed in its official description. Both real code lists are below. This page is checked daily.",
     },
     {
       question: 'How do I get free stuff in Verity without codes?',
@@ -108,6 +108,22 @@ export default function CodesPage() {
           The rest of the &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
           says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
+        </p>
+        <h2>Verity Battles Codes (Confirmed by the Game Itself)</h2>
+        <p>
+          The newest spin-off, <strong>Verity Battles</strong> by SMOOF Games (launched Sept 17 — catch and battle 67
+          Verities across 6 zones from the Meadow to the Cosmic Rift), prints its codes directly in the official game
+          description, so these two are confirmed real rather than aggregator-sourced:
+        </p>
+        <ul>
+          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 8)</strong></li>
+          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 8)</strong></li>
+        </ul>
+        <p>
+          The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
+          Random Verity, and inviting a friend gives you both one. Verity Battles is the second Verity-universe game
+          with a real code system, after Build Base to Survive VERITY — the original Verity and Verity&apos;s Game
+          still have none.
         </p>
       </section>
 

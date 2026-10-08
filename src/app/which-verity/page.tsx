@@ -5,7 +5,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Which Verity Game? (${getCurrentDateString()}) — All Verity Roblox Games Compared`,
   description:
-    'There are ten different Roblox games called Verity. This page tells you which is which — original, horror, box-hunting, base defense, Area 51 survival, AI chat — with live player counts and links.',
+    'There are twelve different Roblox games called Verity. This page tells you which is which — original, horror, box-hunting, base defense, Area 51 survival, AI chat, escape, creature battler — with live player counts and links.',
   keywords: ['which verity game', 'verity games roblox', 'verity roblox games list', 'different verity games', 'verity vs verity horror'],
   path: '/which-verity',
 });
@@ -15,9 +15,9 @@ const GAMES = [
     name: 'Verity™',
     place: '117401848527669',
     creator: 'The ROBO Studio!',
-    playing: '45',
+    playing: '20',
     visits: '28.6M',
-    favs: '78.1K',
+    favs: '78.2K',
     maxPlayers: '40',
     type: 'Original · 3-day survival horror',
     what: 'The original Verity that started the trend: a box arrives, a yellow sphere named Verity "knows everything", and you have three in-game days to chop wood, mine rock and prepare for the final night. Six badges, two endings, six hidden books.',
@@ -28,12 +28,12 @@ const GAMES = [
     name: "Verity's Game",
     place: '104526416639079',
     creator: 'Slime Time Studios',
-    playing: '2,986',
-    visits: '16.7M',
-    favs: '57.2K',
+    playing: '812',
+    visits: '17.9M',
+    favs: '60.1K',
     maxPlayers: '5',
     type: 'Spinoff · box-hunting collection',
-    what: 'Not horror at all — a big field of cash-generating boxes, some "incredibly extremely rare", with a smiley sphere watching. Community summary: "Steal An Egg but Verity". Rebounding from its 9.2K-peak cooldown to ~3.0K concurrent (#5) with 16.7M visits in 29 days; it updated again on Oct 2 (17:26 UTC) — the second daily update in a row after five quiet days — still zero badges, no codes and no changelog. Steal A Verity! has also overtaken it on total visits.',
+    what: 'Not horror at all — a big field of cash-generating boxes, some "incredibly extremely rare", with a smiley sphere watching. Community summary: "Steal An Egg but Verity". Cooling from its 9.2K peak to ~810 concurrent (#5) with 17.9M visits in 34 days; it updated again on Oct 7 (23:30 UTC) — the third update since Sept 26 — still zero badges, no codes and no changelog. Steal A Verity! has also overtaken it on total visits.',
     guide: { href: '/veritys-game', label: "Verity's Game guide" },
     featured: true,
   },
@@ -41,12 +41,12 @@ const GAMES = [
     name: 'Build Base to Survive VERITY',
     place: '116070952245255',
     creator: "Danvd's Larpductions",
-    playing: '3,942',
-    visits: '29.6M',
-    favs: '56.5K',
+    playing: '1,444',
+    visits: '31.0M',
+    favs: '59.1K',
     maxPlayers: '6',
     type: 'Spinoff · base defense',
-    what: 'Build a base with friends, place turrets and guns, and survive Verity when he attacks at night. The late-September 💪 updates keep shipping codes (the Sept 28 wave added Lord, MOGGITY and DUDU; the Oct 1 evening update added UPDATE67SPECIAL) but each bump fades within a day — now ~3.9K concurrent. The only Verity-universe game with a working code system — codes are tracked on our codes page.',
+    what: 'Build a base with friends, place turrets and guns, and survive Verity when he attacks at night. The late-September 💪 updates keep shipping codes (the Sept 28 wave added Lord, MOGGITY and DUDU; the Oct 1 evening update added UPDATE67SPECIAL) but each bump fades within a day — now ~1.4K concurrent after its Oct 4 update. One of two Verity-universe games with a working code system (the other is Verity Battles) — codes are tracked on our codes page.',
     guide: { href: '/codes', label: 'Working codes' },
     featured: true,
   },
@@ -54,36 +54,36 @@ const GAMES = [
     name: 'Survive Verity in Area 51',
     place: '74716719697996',
     creator: 'Mochi Productions!',
-    playing: '4,712',
-    visits: '60.2M',
-    favs: '2.26M',
+    playing: '1,430',
+    visits: '62.3M',
+    favs: '2.30M',
     maxPlayers: '12',
     type: 'Spinoff · facility survival',
-    what: 'Explore Area 51 and the backrooms, fight Verity with weapons and scavenge items to survive, solo or with friends (official description). The quiet giant of the ecosystem: 60.2M visits and 2.26M favorites make it the most-visited and most-favorited Verity game on Roblox — double the original on visits — yet it has zero badges and no guide coverage anywhere. After its Oct 1 rename to "[⏰SOON]🚪…🔦" it has updated three days in a row — the latest on Oct 3 (03:50 UTC) — still teasing whatever is behind the door; players jumped to ~4.7K. Contents not yet documented.',
+    what: 'Explore Area 51 and the backrooms, fight Verity with weapons and scavenge items to survive, solo or with friends (official description). The quiet giant of the ecosystem: 62.3M visits and 2.30M favorites make it the most-visited and most-favorited Verity game on Roblox — double the original on visits — yet it has zero badges and no guide coverage anywhere. Its title tag just flipped from "[⏰SOON]" to "[🎃SOON]🚪…🔦" with another update on Oct 8 (03:23 UTC): the door tease is now explicitly a Halloween event. Contents not yet documented.',
     guide: null,
   },
   {
     name: 'Verity Companion [AI]',
     place: '74542317333958',
     creator: 'buzzword games',
-    playing: '815',
-    visits: '33.4M',
-    favs: '104.8K',
+    playing: '242',
+    visits: '34.1M',
+    favs: '107.3K',
     maxPlayers: '8',
     type: 'Spinoff · AI chat',
-    what: 'A chat-focused companion game: ask Verity anything and it remembers what you tell it. Update 1 raised the message cap to 40 and added a new ending; the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update. Its Oct 2 update (17:09 UTC) then added three more badges — BACKUP COMPLETE, Out of Mind, Out of Sight and ESCAPE SUBJECT (each still under 200 awards; the escape-flavored names suggest a new ending path, unconfirmed) — taking the list to 13. Second-highest visit count in the ecosystem, behind Survive Verity in Area 51.',
+    what: 'A chat-focused companion game: ask Verity anything and it remembers what you tell it. Update 1 raised the message cap to 40 and added a new ending; the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update. Its Oct 2 update (17:09 UTC) then added three more badges — BACKUP COMPLETE, Out of Mind, Out of Sight and ESCAPE SUBJECT (now being earned, ~700–1,000 awards each) — and its Oct 6 update added a 14th, TEST SUBJECT (still zero awards). The escape-flavored badge names keep pointing at a new ending path. Second-highest visit count in the ecosystem, behind Survive Verity in Area 51.',
     guide: null,
   },
   {
     name: 'Verity [HORROR]',
     place: '129839966867899',
     creator: 'Specter Development',
-    playing: '530',
-    visits: '20.5M',
-    favs: '50.2K',
+    playing: '190',
+    visits: '21.0M',
+    favs: '51.3K',
     maxPlayers: '35',
     type: 'Separate game · house horror',
-    what: 'A different developer\'s take: you play as Ethan, home alone, protecting a suburban house over three days. Six badges on the live badge API (Oct 3), including Bad Ending: Car Escape and Good Ending: End of Verity — two older badges are no longer listed. Do not confuse its badge list with the original\'s six badges.',
+    what: 'A different developer\'s take: you play as Ethan, home alone, protecting a suburban house over three days. Six badges on the live badge API (Oct 8), including Bad Ending: Car Escape and Good Ending: End of Verity — two older badges are no longer listed. Do not confuse its badge list with the original\'s six badges.',
     guide: null,
   },
   {
@@ -102,21 +102,21 @@ const GAMES = [
     name: 'Steal A Verity!',
     place: '107164765081465',
     creator: 'Steal A Verity!',
-    playing: '16,310',
-    visits: '18.9M',
-    favs: '673.5K',
+    playing: '7,323',
+    visits: '29.2M',
+    favs: '913.2K',
     maxPlayers: '7',
     type: 'Spinoff · steal-and-collect',
-    what: 'Steal-and-collect format with Verity spheres as the loot. Fast, casual and still the most-played Verity game — now ~16.3K concurrent and accelerating: the [BOSS] updates (latest Oct 2, 21:03 UTC) pushed it past 673K favorites on 18.9M visits by Oct 3 — far past Verity\'s Game on total visits, the fastest growth in the ecosystem.',
+    what: 'Steal-and-collect format with Verity spheres as the loot. Fast, casual and still the most-played Verity game — concurrent has halved from its 16.3K peak to ~7.3K, but the [BOSS] updates (latest Oct 7) pushed visits from 18.9M to 29.2M in five days with 913K favorites — far past Verity\'s Game on total visits, the fastest growth in the ecosystem.',
     guide: null,
   },
   {
     name: 'Verity RP',
     place: '90695400874679',
     creator: 'RP',
-    playing: '328',
-    visits: '14.2M',
-    favs: '157.0K',
+    playing: '146',
+    visits: '14.6M',
+    favs: '159.6K',
     maxPlayers: '30',
     type: 'Spinoff · roleplay',
     what: 'Roleplay sandbox where you live out Verity scenarios with other players. A long-running favorite of the ecosystem with 150K+ favorites.',
@@ -126,13 +126,37 @@ const GAMES = [
     name: 'Is It Verity?',
     place: '135439033252889',
     creator: 'Prince Creations',
-    playing: '4,202',
-    visits: '4.3M',
-    favs: '13.6K',
+    playing: '1,521',
+    visits: '7.6M',
+    favs: '25.0K',
     maxPlayers: '22',
     type: 'Spinoff · 1v1 deduction duel',
-    what: 'Mastermind with Verity spheres: place your Verity, check the result, and crack the hidden pattern before your opponent does in 1v1 matches (official description). Launched Sept 13; after doubling overnight to ~3,100 on Oct 1 and cooling to ~2,700 it rebounded to ~4,200 on Oct 3 — now the ecosystem\'s #3, behind Survive Verity in Area 51 and ahead of Verity\'s Game.',
+    what: 'Mastermind with Verity spheres: place your Verity, check the result, and crack the hidden pattern before your opponent does in 1v1 matches (official description). Launched Sept 13; concurrent cooled from its ~4,200 rebound to ~1,500 by Oct 8, but visits grew 4.3M → 7.6M in five days after its Oct 7 update — now the ecosystem\'s #2, behind Steal A Verity!.',
     guide: null,
+  },
+  {
+    name: 'Escape Verity',
+    place: '124107554735431',
+    creator: 'Mind Blowing Productions',
+    playing: '56',
+    visits: '12.4M',
+    favs: '189.4K',
+    maxPlayers: '12',
+    type: 'Spinoff · escape horror',
+    what: 'Escape-format horror: collect keys, unlock doors and navigate the halls to find the exit while Verity hunts. Chapter 4 just went live — the game renamed to "[C4] ESCAPE VERITY 🔑" with its Oct 3 update (12:31 UTC) and full Chapter 1–4 walkthroughs hit YouTube within days (Dragonsubmann; El Mishi Triste, Oct 6 — ending included). Oddity: the "Beat Chapter 4" badge still shows zero awards as of Oct 8 despite finished walkthroughs — it looks unwired — and "Total Chaos Ending" has never been awarded either.',
+    guide: null,
+  },
+  {
+    name: 'Verity Battles',
+    place: '90352701897301',
+    creator: 'SMOOF Games',
+    playing: '618',
+    visits: '299K',
+    favs: '19.4K',
+    maxPlayers: '5',
+    type: 'Spinoff · catch-and-battle',
+    what: 'Pokémon-style Verity collector launched Sept 17: catch 67 Verities across 6 zones from the Meadow to the Cosmic Rift, beat Guardians to open new zones, hunt Gold/BIG/Rainbow variants, duel players and rebirth (official description). The second Verity-universe game with a real code system — the official description prints "CODES: RELEASE, VERITY" — plus group (+10% cash) and friend-invite rewards. Updated Oct 8.',
+    guide: { href: '/codes', label: 'Verity Battles codes' },
   },
 ];
 
@@ -145,7 +169,7 @@ export default function WhichVerityPage() {
     {
       question: 'How many Roblox games are called Verity?',
       answer:
-        'At least ten distinct games use the Verity name on Roblox: the original Verity™ by The ROBO Studio!, Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC] (currently private), Steal A Verity!, Verity RP and Is It Verity?. They are made by different developers with different gameplay.',
+        'At least twelve distinct games use the Verity name on Roblox: the original Verity™ by The ROBO Studio!, Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC] (currently private), Steal A Verity!, Verity RP, Is It Verity?, Escape Verity and Verity Battles. They are made by different developers with different gameplay.',
     },
     {
       question: 'Which Verity game is the original?',
@@ -160,12 +184,12 @@ export default function WhichVerityPage() {
     {
       question: 'Which Verity game has codes?',
       answer:
-        'Only Build Base to Survive VERITY has a working code system. The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing Build Base codes under the wrong name.',
+        'Two of them do: Build Base to Survive VERITY (seven active codes) and Verity Battles, whose official description prints "CODES: RELEASE, VERITY". The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing Build Base codes under the wrong name.',
     },
     {
       question: 'Which Verity game has the most players?',
       answer:
-        'Steal A Verity! is currently the busiest at ~16,300 concurrent players after its latest [BOSS] update (Oct 2), past 673K favorites. Survive Verity in Area 51 holds #2 (~4,700 after a third straight daily tease update) — with 60.2M visits and 2.26M favorites it is the most-visited and most-favorited Verity game on Roblox — ahead of Is It Verity? (~4,200). Build Base to Survive VERITY (~3,900) and Verity\'s Game (~3,000, rebounding after a second daily update) take the next spots, and the original Verity™ sits at ~45 concurrent players.',
+        'Steal A Verity! is currently the busiest at ~7,300 concurrent players after its latest [BOSS] update (Oct 7) — halved from its 16.3K peak, but its visits exploded to 29.2M with 913K favorites. Is It Verity? (~1,500), Build Base to Survive VERITY (~1,400) and Survive Verity in Area 51 (~1,400, now teasing a Halloween update) take the next spots — with 62.3M visits and 2.30M favorites Area 51 is the most-visited and most-favorited Verity game on Roblox. Verity\'s Game (~810) and Verity Battles (~620) follow, and the original Verity™ sits at ~20 concurrent players.',
     },
     {
       question: 'Why do all these games use the Verity name?',
@@ -178,7 +202,7 @@ export default function WhichVerityPage() {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-black mb-2">Which Verity Game Are You Looking For?</h1>
       <p className="text-gray-500 mb-8">
-        Ten Roblox games use the name Verity. Here is every one of them, with live player counts — checked {getCurrentDateString()}.
+        Twelve Roblox games use the name Verity. Here is every one of them, with live player counts — checked {getCurrentDateString()}.
       </p>
 
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-10">
@@ -260,6 +284,8 @@ export default function WhichVerityPage() {
           <li><strong>Are you chatting with an AI?</strong> That is Verity Companion [AI].</li>
           <li><strong>Are you exploring Area 51 and the backrooms with weapons?</strong> That is Survive Verity in Area 51.</li>
           <li><strong>Are you guessing a hidden pattern against another player?</strong> That is Is It Verity?.</li>
+          <li><strong>Are you collecting keys and escaping halls while it hunts you?</strong> That is Escape Verity.</li>
+          <li><strong>Are you catching Verities and battling Guardians across zones?</strong> That is Verity Battles.</li>
         </ul>
 
         <h2>Why This Matters for Guides</h2>
@@ -270,9 +296,9 @@ export default function WhichVerityPage() {
           does not exist in the game you are playing.
         </p>
         <p>
-          The same applies to codes: only <strong>Build Base to Survive VERITY</strong> has them, which is why every
-          &quot;Verity codes&quot; page on the internet is really a Build Base codes page. Ours says so explicitly on the{' '}
-          <Link href="/codes">codes page</Link>.
+          The same applies to codes: only <strong>Build Base to Survive VERITY</strong> and <strong>Verity Battles</strong> have
+          them, which is why most &quot;Verity codes&quot; pages on the internet are really Build Base codes pages. Ours says so
+          explicitly on the <Link href="/codes">codes page</Link>.
         </p>
         <p className="text-sm text-gray-500">
           Player counts, visits and favorites on this page are live Roblox figures pulled from the Roblox games API.
