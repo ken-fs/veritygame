@@ -116,8 +116,8 @@ export default function CodesPage() {
           description, so these two are confirmed real rather than aggregator-sourced:
         </p>
         <ul>
-          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 8)</strong></li>
-          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 8)</strong></li>
+          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 9)</strong></li>
+          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 9)</strong></li>
         </ul>
         <p>
           The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
