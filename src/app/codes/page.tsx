@@ -82,7 +82,7 @@ export default function CodesPage() {
           at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
           Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes, and the
           Oct 1 evening update (19:33 UTC) shipped one more: <code>UPDATE67SPECIAL</code>. Its active codes, cross-verified against RobloxDen
-          (re-checked Oct 2) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          (re-checked Oct 10 — the Oct 9 update, 14:26 UTC, shipped no new codes) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
         </p>
         <ul>
           <li><code>UPDATE67SPECIAL</code> — 50 Reinforced Obsidian Blocks <strong>(newest — added by RobloxDen&apos;s Oct 2 check after the Oct 1 update; single source, not yet confirmed in-game)</strong></li>
@@ -103,7 +103,7 @@ export default function CodesPage() {
           (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
           confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. RobloxDen&apos;s Oct 1 pass added:{" "}
           <code>SORRY4NOCODES</code> (10 God Verity Bedrocks) at &quot;check&quot; — the name reads as the dev
-          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 2 check kept it at
+          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 10 check still keeps it at
           &quot;check&quot;: still single source, not yet confirmed in-game.
           The rest of the &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
           says invalid. To redeem:
@@ -116,8 +116,8 @@ export default function CodesPage() {
           description, so these two are confirmed real rather than aggregator-sourced:
         </p>
         <ul>
-          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 9)</strong></li>
-          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 9)</strong></li>
+          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 10)</strong></li>
+          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 10)</strong></li>
         </ul>
         <p>
           The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
