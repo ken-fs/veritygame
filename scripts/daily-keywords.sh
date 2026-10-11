@@ -1,4 +1,5 @@
 #!/bin/bash
+source /Users/david/Desktop/david/Ship/scripts/notify.sh  # ship_notify：推飞书（2026-10-11）
 # Verity 站每日关键词管道
 set -u
 PROJ="/Users/david/Desktop/david/Ship/veritygame"
@@ -53,7 +54,7 @@ if [ -n "$(git log origin/main..main --oneline 2>/dev/null)" ]; then
     || {
       echo "⚠️ PUSH_FAILED：本地有未推送 commit，需人工处理" >> "$LOG"
       echo "$(date '+%F %T') veritygame PUSH_FAILED（$(git log origin/main..main --oneline | wc -l | tr -d ' ') 个 commit 未推送）" >> /Users/david/Desktop/david/Ship/out/push-failures.log
-      osascript -e 'display notification "veritygame 有 commit 未推送，内容没上线" with title "Ship 推送失败" sound name "Basso"' >/dev/null 2>&1 || true
+      ship_notify "⚠️ 备份同步失败" "veritygame 有 commit 未推送，内容没上线"
     }
 fi
 
