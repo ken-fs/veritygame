@@ -5,7 +5,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Which Verity Game? (${getCurrentDateString()}) — All Verity Roblox Games Compared`,
   description:
-    'There are twelve different Roblox games called Verity. This page tells you which is which — original, horror, box-hunting, base defense, Area 51 survival, AI chat, escape, creature battler — with live player counts and links.',
+    'There are thirteen different Roblox games called Verity. This page tells you which is which — original, horror, box-hunting, base defense, Area 51 survival, AI chat, escape, creature battler — with live player counts and links.',
   keywords: ['which verity game', 'verity games roblox', 'verity roblox games list', 'different verity games', 'verity vs verity horror'],
   path: '/which-verity',
 });
@@ -158,6 +158,18 @@ const GAMES = [
     what: 'Pokémon-style Verity collector launched Sept 17: catch 67 Verities across 6 zones from the Meadow to the Cosmic Rift, beat Guardians to open new zones, hunt Gold/BIG/Rainbow variants, duel players and rebirth (official description). The second Verity-universe game with a real code system — the official description prints "CODES: RELEASE, VERITY" (re-checked Oct 10) and now also lists training your team at a gaming PC plus a "Verity Blocks" bonus-XP minigame — plus group (+10% cash) and friend-invite rewards. Updated Oct 10 (03:33 UTC): concurrent nearly doubled overnight to ~2,600, overtaking Build Base for the ecosystem\'s #4.',
     guide: { href: '/codes', label: 'Verity Battles codes' },
   },
+  {
+    name: "Verity's Story",
+    place: '95629887914156',
+    creator: 'elxyr',
+    playing: '0',
+    visits: '6.7M',
+    favs: '12.2K',
+    maxPlayers: '20',
+    type: 'Fan game · story horror',
+    what: 'A story-driven horror fan game inspired by the original Verity concept (credited to Thatmob) with a backrooms, liminal feel: you find a strange yellow creature named Verity who seems friendly at first, explore strange places, uncover the story and — whatever happens — keep Verity happy (official description). Six levels deep: its badge list tracks Completed LEVEL 1 through LEVEL 6 (115K+ have finished LEVEL 6) plus a "S E C R E T B A D G E" and a rare "ForbiddenKey" (1.6K awards), and the title now reads "[LEVEL 6]". Launched June 22 and past 6.7M visits, but quiet since its Aug 1 update — zero concurrent players as of Oct 11, though the description still promises new levels, secrets and updates are coming soon.',
+    guide: null,
+  },
 ];
 
 export default function WhichVerityPage() {
@@ -169,7 +181,7 @@ export default function WhichVerityPage() {
     {
       question: 'How many Roblox games are called Verity?',
       answer:
-        'At least twelve distinct games use the Verity name on Roblox: the original Verity™ by The ROBO Studio!, Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC] (currently private), Steal A Verity!, Verity RP, Is It Verity?, Escape Verity and Verity Battles. They are made by different developers with different gameplay.',
+        'At least thirteen distinct games use the Verity name on Roblox: the original Verity™ by The ROBO Studio!, Verity\'s Game, Build Base to Survive VERITY, Survive Verity in Area 51, Verity Companion [AI], Verity [HORROR], Verity [REALISTIC] (currently private), Steal A Verity!, Verity RP, Is It Verity?, Escape Verity, Verity Battles and Verity\'s Story. They are made by different developers with different gameplay.',
     },
     {
       question: 'Which Verity game is the original?',
@@ -202,7 +214,7 @@ export default function WhichVerityPage() {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-black mb-2">Which Verity Game Are You Looking For?</h1>
       <p className="text-gray-500 mb-8">
-        Twelve Roblox games use the name Verity. Here is every one of them, with live player counts — checked {getCurrentDateString()}.
+        Thirteen Roblox games use the name Verity. Here is every one of them, with live player counts — checked {getCurrentDateString()}.
       </p>
 
       <div className="p-5 rounded-xl border border-yellow-300 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-950/20 mb-10">
@@ -286,6 +298,7 @@ export default function WhichVerityPage() {
           <li><strong>Are you guessing a hidden pattern against another player?</strong> That is Is It Verity?.</li>
           <li><strong>Are you collecting keys and escaping halls while it hunts you?</strong> That is Escape Verity.</li>
           <li><strong>Are you catching Verities and battling Guardians across zones?</strong> That is Verity Battles.</li>
+          <li><strong>Are you exploring strange places across six levels, keeping a yellow creature happy?</strong> That is Verity&apos;s Story.</li>
         </ul>
 
         <h2>Why This Matters for Guides</h2>

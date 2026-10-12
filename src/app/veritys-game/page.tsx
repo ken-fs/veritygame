@@ -88,10 +88,11 @@ export default function VeritysGamePage() {
           <li><strong>Verity Battles</strong> — SMOOF Games — catch-and-battle spinoff launched Sept 17 (67 Verities, 6 zones, Meadow to Cosmic Rift; ~2,600 online — nearly doubled again overnight — 602K visits, 37.1K favorites, updated Oct 10). The second Verity game with a real code system — its official description prints <a href="/codes">CODES: RELEASE, VERITY</a> and now also lists training at a gaming PC plus a &quot;Verity Blocks&quot; bonus-XP minigame.</li>
           <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending, and the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update. Its Oct 2 update then added three more badges — BACKUP COMPLETE, Out of Mind, Out of Sight and ESCAPE SUBJECT (now being earned — ~870–1,170 awards each by Oct 10, consistent with a new escape-flavored ending path) — taking the list to 13 — and its Oct 6 update added a 14th, TEST SUBJECT, which went live within days (189 awards by Oct 10; live badge API).</li>
           <li><strong>Verity Part 2</strong> — Umek0 Games — fan-made story continuation; its Part 2 update landed August 2026 with full walkthroughs already on YouTube. Not an official sequel — The ROBO Studio! has announced no Chapter 2 for the original.</li>
+          <li><strong>Verity&apos;s Story</strong> — elxyr — fan-made story horror inspired by Thatmob&apos;s original concept with a backrooms, liminal feel; six badge-tracked levels (115K+ have finished LEVEL 6) plus a secret badge. 6.7M visits since its June 22 launch, but dormant: no update since Aug 1 and zero concurrent players (Oct 11).</li>
         </ul>
         <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
         <p className="not-prose text-sm text-gray-500">
-          All twelve Verity-named Roblox games we track, ranked by concurrent players. Snapshot from the Roblox games API, Oct 10 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
+          All thirteen Verity-named Roblox games we track, ranked by concurrent players. Snapshot from the Roblox games API, Oct 10 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
           <a href="/which-verity" className="underline">full comparison with what each game is</a>.
         </p>
         <div className="overflow-x-auto not-prose">
@@ -118,6 +119,7 @@ export default function VeritysGamePage() {
                 { name: 'Verity RP', creator: 'RP', playing: '316', visits: '14.7M', favs: '160.4K' },
                 { name: 'Escape Verity', creator: 'Mind Blowing Productions', playing: '119', visits: '12.4M', favs: '189.5K' },
                 { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '44', visits: '28.7M', favs: '78.2K' },
+                { name: "Verity's Story", creator: 'elxyr', playing: '0', visits: '6.7M', favs: '12.2K' },
                 { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: 'private', visits: '28.5M', favs: '63.7K' },
               ].map((g) => (
                 <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
