@@ -4,7 +4,7 @@ import { generateSEOMetadata, generateBreadcrumbSchema, generateFAQSchema, getCu
 export const metadata: Metadata = generateSEOMetadata({
   title: `Verity Codes (${getCurrentDateString()}) — Do Codes Exist?`,
   description:
-    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily — plus the real working codes for Build Base to Survive VERITY and Verity Battles.",
+    "Are there Verity codes on Roblox? Current code status for Verity and Verity's Game, checked daily — plus the real working codes for Build Base to Survive VERITY, Verity Battles and Survive Verity in Area 51's Halloween event.",
   keywords: ['verity codes', 'verity roblox codes', "verity's game codes", 'verity codes 2026'],
   path: '/codes',
 });
@@ -18,7 +18,7 @@ export default function CodesPage() {
     {
       question: 'Are there any Verity codes?',
       answer:
-        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering different games — Build Base to Survive VERITY and the newer Verity Battles (SMOOF Games), whose two codes are confirmed in its official description. Both real code lists are below. This page is checked daily.",
+        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering different games — Build Base to Survive VERITY and the newer Verity Battles (SMOOF Games), whose two codes are confirmed in its official description, and Survive Verity in Area 51, which got its first-ever code with the HALLOWITY Halloween event (single source, below). All real code lists are on this page. This page is checked daily.",
     },
     {
       question: 'How do I get free stuff in Verity without codes?',
@@ -82,30 +82,32 @@ export default function CodesPage() {
           at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
           Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes, and the
           Oct 1 evening update (19:33 UTC) shipped one more: <code>UPDATE67SPECIAL</code>. Its active codes, cross-verified against RobloxDen
-          (re-checked Oct 10 — the Oct 9 update, 14:26 UTC, shipped no new codes) and TechWiser (its page has not re-checked since Sept 15 — treated as stale):
+          (re-checked Oct 12 — the Oct 10 update, 16:13 UTC, retitled the game to [🤖] and shipped no new codes; the active seven are unchanged),
+          GameRant (Oct 1) and TechWiser:
         </p>
         <ul>
-          <li><code>UPDATE67SPECIAL</code> — 50 Reinforced Obsidian Blocks <strong>(newest — added by RobloxDen&apos;s Oct 2 check after the Oct 1 update; single source, not yet confirmed in-game)</strong></li>
-          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
-          <li><code>MOGGITY</code> — 10 Barrier <strong>(&quot;New Code&quot; at RobloxDen; single source)</strong></li>
-          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(&quot;New Code&quot; at RobloxDen; single source)</strong></li>
-          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(&quot;New Code&quot; at RobloxDen; single source, not yet confirmed in-game)</strong></li>
-          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active, now flagged &quot;New Code&quot;; still unlisted on TechWiser, checked Sept 30)</strong></li>
+          <li><code>UPDATE67SPECIAL</code> — 50 Reinforced Obsidian Blocks <strong>(newest — RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
+          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
+          <li><code>MOGGITY</code> — 10 Barrier <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
+          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(RobloxDen active)</strong></li>
+          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
+          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active)</strong></li>
           <li><code>CODES</code> — $500 cash</li>
         </ul>
         <p>
-          RobloxDen&apos;s latest pass demoted <code>WMEMBER67</code> (3 Mystery Boxes) and <code>DAILYQUESTS</code>{" "}
+          RobloxDen&apos;s latest pass (Oct 12) demoted <code>WMEMBER67</code> (3 Mystery Boxes) and <code>DAILYQUESTS</code>{" "}
           (1 Verity Turret per RobloxDen — TechWiser says Forcefield, sources differ) to &quot;check&quot;, while{" "}
           <code>Update3</code> (10 Bedrock) and <code>Obesity</code> (10 Barrier) are back on the list at &quot;check&quot;
-          after being dropped a day earlier. <code>UPDATE4</code> (50 Crying Obsidian) stays at &quot;check&quot;, and{" "}
-          <code>GODITY</code> and <code>UPDATE2</code> have slipped to expired. Still conflicting:{" "}
-          <code>OGplayer67</code> — TechWiser&apos;s stale list keeps it active, but RobloxDen has removed it entirely
+          after being dropped a day earlier. <code>UPDATE4</code> (50 Crying Obsidian) stays at &quot;check&quot;;{" "}
+          <code>GODITY</code> and <code>UPDATE2</code> are expired, and <code>MANIPULITY</code>,{" "}
+          <code>THXFOR1M</code> and <code>CURIOSITYUPD</code> have now slipped to expired too. Still conflicting:{" "}
+          <code>OGplayer67</code> — TechWiser&apos;s list keeps it active, but RobloxDen has removed it entirely
           (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
-          confirmed expired, and <code>10000PLAYERS</code> is back on the expired list there. RobloxDen&apos;s Oct 1 pass added:{" "}
+          confirmed expired, and <code>10000PLAYERS</code> is on the expired list there. RobloxDen&apos;s Oct 1 pass added:{" "}
           <code>SORRY4NOCODES</code> (10 God Verity Bedrocks) at &quot;check&quot; — the name reads as the dev
-          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 10 check still keeps it at
+          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 12 check still keeps it at
           &quot;check&quot;: still single source, not yet confirmed in-game.
-          The rest of the &quot;check&quot; list: VOIDITY, MANIPULITY, WEEKLY, THXFOR1M and CURIOSITYUPD — worst case the game
+          The rest of the &quot;check&quot; list: VOIDITY and WEEKLY — worst case the game
           says invalid. To redeem:
           Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
         </p>
@@ -116,14 +118,30 @@ export default function CodesPage() {
           description, so these two are confirmed real rather than aggregator-sourced:
         </p>
         <ul>
-          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 10)</strong></li>
-          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 10)</strong></li>
+          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 13)</strong></li>
+          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 13)</strong></li>
         </ul>
         <p>
           The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
           Random Verity, and inviting a friend gives you both one. Verity Battles is the second Verity-universe game
-          with a real code system, after Build Base to Survive VERITY — the original Verity and Verity&apos;s Game
-          still have none.
+          with a permanent code system, after Build Base to Survive VERITY — Survive Verity in Area 51 got its first
+          (event) code with the HALLOWITY update, below — and the original Verity and Verity&apos;s Game still have none.
+        </p>
+        <h2>Survive Verity in Area 51 — First Code (HALLOWITY Event)</h2>
+        <p>
+          The ecosystem&apos;s biggest game, <strong>Survive Verity in Area 51</strong> by Mochi Productions! (64.2M
+          visits, 2.34M favorites), launched its <strong>HALLOWITY</strong> Halloween event with the Oct 10 update —
+          and with it the game&apos;s first code, redeemable in the event shop:
+        </p>
+        <ul>
+          <li><code>Halloween2026</code> — 500 candy <strong>(single source: creator footage of the event shop, Oct 10 — not yet confirmed in-game; the big aggregators still listed no codes for this game as of Oct 12)</strong></li>
+        </ul>
+        <p>
+          Candy is the event currency: pumpkin Verities spawn around the Halloween-themed map and drop candy when
+          killed. The event shop sells potions, exclusive titles (Nightstalker, Soul Reaper, Hollow&apos;s Master)
+          and Halloween keys — 150 candy each or five for 700 — which open Halloween crates of weapon skins.
+          Part 2 of the event is dated Oct 17 and adds two bosses, Hollow Witty and Witchy (creator-reported).
+          Event codes usually expire when the event ends, so redeem early.
         </p>
       </section>
 
