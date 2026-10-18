@@ -18,7 +18,7 @@ export default function VeritysGamePage() {
     {
       question: "What is Verity's Game on Roblox?",
       answer:
-        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 19 million visits; its Oct 10 update — the fifth since Sept 26 — changed nothing visible (still zero badges, no codes), and concurrent players sit around ~875 as of Oct 17. Steal A Verity! (~12,300 online, 1.20M favorites on 44.4M visits, title now [4X]) is the most-played Verity game on Roblox, ahead of Survive Verity in Area 51 (~3,100 — its Part 2 update landed Oct 17 and the title flipped back to a [⏰SOON] door tease), Build Base to Survive VERITY (~1,300), Is It Verity? (~900) and Verity Battles (~770)."
+        "Verity's Game is a box-hunting collection game by Slime Time Studios (released September 4, 2026). A big field of boxes generates cash, some boxes are 'incredibly extremely rare', and the official description jokingly warns you to leave them alone. It passed 19 million visits; its Oct 10 update — the fifth since Sept 26 — changed nothing visible (still zero badges, no codes), and concurrent players sit around ~875 as of Oct 17. Steal A Verity! (~12,300 online, 1.20M favorites on 44.4M visits, title now [4X]) is the most-played Verity game on Roblox, ahead of Survive Verity in Area 51 (~3,100 — its Part 2 update landed Oct 17 and the title flipped back to a [⏰SOON] door tease), Build Base to Survive VERITY (~1,300), Is It Verity? (~900) and Verity Battles (~770). First gameplay footage (Oct 2026) shows a strength stat you build to grab bigger boxes and a giant Verity guard that chases box thieves."
     },
     {
       question: "Is Verity's Game the same as Verity?",
@@ -155,17 +155,26 @@ export default function VeritysGamePage() {
           This page tracks the whole ecosystem, not just the original.
         </p>
 
+        <h2>First Gameplay Footage: How It Actually Plays</h2>
+        <p>
+          The first real gameplay videos are finally out, and they answer two of our long-open questions
+          (creator footage, not official patch notes — source-checked Oct 18):
+        </p>
+        <ul>
+          <li><strong>The giant smiley Verity is a guard.</strong> It watches the box field, and the moment you steal a box it &ldquo;takes that personally&rdquo; — it turns angry, chases you, and keeps getting angrier the more you grab (amvtci, &ldquo;Stealing Boxes Made Verity Angry!&rdquo;, Oct 4 — 12 minutes of in-game footage).</li>
+          <li><strong>Strength is the progression stat.</strong> You build strength to grab bigger and better boxes without letting the giant guard stop you (same video). Grabbing is strength-gated — a Sept 14 video by UIA shows an &ldquo;OP bug&rdquo; that lets you grab anything even at low strength.</li>
+          <li><strong>Verity variants roam the map.</strong> The same footage runs into &ldquo;Oldity and some other wild Verity variants&rdquo; — the IP&apos;s -ity naming pattern (Verity / Falsity / <a href="/characters">Barity</a>) made it into the game. Variant names beyond Oldity are unconfirmed.</li>
+        </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
-          No guide, wiki or video coverage of Verity&apos;s Game mechanics exists anywhere yet (source-checked Oct 17).
-          These are the open questions — <strong>unverified, we publish nothing until confirmed</strong>:
+          Remaining open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>
           <li><strong>Box tiers &amp; odds</strong> — tier names beyond normal vs &ldquo;incredibly extremely rare&rdquo;, cash amounts, rarity rates</li>
-          <li><strong>The smiley sphere</strong> — what the giant yellow face in the artwork actually does in gameplay</li>
-          <li><strong>Stealing</strong> — whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style</li>
+          <li><strong>How strength is built</strong> — training method, upgrades and what cash is spent on</li>
+          <li><strong>Player-vs-player stealing</strong> — guard-vs-thief is confirmed; whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style, is not seen yet</li>
           <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
-          <li><strong>Updates</strong> — last game update Oct 10, 2026 (23:10 UTC), the fifth since Sept 26: no description change, still zero badges (live badge API, Oct 17) and no official changelog — contents still undocumented; new content drops land here first</li>
+          <li><strong>Updates</strong> — last game update Oct 10, 2026 (23:10 UTC), the fifth since Sept 26: no description change, still zero badges (live badge API, Oct 17) and no official changelog; new content drops land here first</li>
         </ul>
         <p>
           New to the sphere universe? The original&apos;s <a href="/walkthrough">3-day walkthrough</a> is the fastest
