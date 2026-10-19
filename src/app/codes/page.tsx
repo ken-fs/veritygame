@@ -118,8 +118,8 @@ export default function CodesPage() {
           description, so these two are confirmed real rather than aggregator-sourced:
         </p>
         <ul>
-          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 17)</strong></li>
-          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 17)</strong></li>
+          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 19)</strong></li>
+          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 19)</strong></li>
         </ul>
         <p>
           The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
@@ -129,8 +129,8 @@ export default function CodesPage() {
         </p>
         <h2>Survive Verity in Area 51 — First Code (HALLOWITY Event)</h2>
         <p>
-          The ecosystem&apos;s biggest game, <strong>Survive Verity in Area 51</strong> by Mochi Productions! (65.2M
-          visits, 2.36M favorites), launched its <strong>HALLOWITY</strong> Halloween event with the Oct 10 update —
+          The ecosystem&apos;s biggest game, <strong>Survive Verity in Area 51</strong> by Mochi Productions! (66.0M
+          visits, 2.37M favorites), launched its <strong>HALLOWITY</strong> Halloween event with the Oct 10 update —
           and with it the game&apos;s first code, redeemable in the event shop:
         </p>
         <ul>
@@ -140,10 +140,12 @@ export default function CodesPage() {
           Candy is the event currency: pumpkin Verities spawn around the Halloween-themed map and drop candy when
           killed. The event shop sells potions, exclusive titles (Nightstalker, Soul Reaper, Hollow&apos;s Master)
           and Halloween keys — 150 candy each or five for 700 — which open Halloween crates of weapon skins.
-          Part 2 landed Oct 17 (03:35 UTC): the title flipped back to a [⏰SOON] door tease — the same pattern that
-          preceded the event launch — concurrent players doubled to ~3,100, and the description is unchanged with no
-          new code (re-checked Oct 17); boss names Hollow Witty and Witchy remain creator-reported until footage
-          confirms them. Event codes usually expire when the event ends, so redeem early.
+          Part 2 landed Oct 17 (03:35 UTC) and is now confirmed live: the game&apos;s first-ever badge,{' '}
+          <strong>The Last Harvest</strong>, appeared on the badge API the same day (97K+ awards within two days),
+          the title re-flipped to [🎃HALLOWITY &amp; WITCH]🚪 on Oct 18 (14:09 UTC) with a x2-coins weekend line
+          added to the description, and the official wiki documents the new boss <strong>Witchity</strong> (spawns
+          after the server defeats 100 regular Hallowitys, drops 250 candy). No new code shipped with Part 2
+          (description re-checked Oct 19). Event codes usually expire when the event ends, so redeem early.
         </p>
       </section>
 
