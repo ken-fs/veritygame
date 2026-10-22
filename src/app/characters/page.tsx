@@ -141,7 +141,9 @@ export default function CharactersPage() {
         <p className="text-sm text-gray-500">
           Note: the original Verity has <strong>no announced Chapter 2</strong>. Other games in the ecosystem —{' '}
           <Link href="/veritys-game">Verity&apos;s Game</Link>, Escape Verity, Build Base to Survive VERITY — are
-          separate titles. See <Link href="/which-verity">which Verity game</Link> if you are not sure which one you
+          separate titles. Escape Verity (Mind Blowing Productions) has now concluded: its finale,{' '}
+          <strong>Chapter 4, released in early October 2026</strong>, and full Chapter 1–4 walkthroughs are up from
+          multiple creators. See <Link href="/which-verity">which Verity game</Link> if you are not sure which one you
           are playing.
         </p>
       </section>
