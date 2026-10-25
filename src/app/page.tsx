@@ -105,7 +105,7 @@ export default function HomePage() {
           <Link href="/characters">Falsity</Link> is not your friend. Probably.
         </p>
         <p>
-          Not sure you are even playing the right game? At least fourteen Roblox titles use the Verity name — the{' '}
+          Not sure you are even playing the right game? At least fifteen Roblox titles use the Verity name — the{' '}
           <Link href="/which-verity">which Verity game</Link> page sorts them out with live player counts. And if a
           question is not covered here, the <Link href="/faq">FAQ</Link> answers the rest.
         </p>

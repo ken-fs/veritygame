@@ -18,7 +18,7 @@ export default function CodesPage() {
     {
       question: 'Are there any Verity codes?',
       answer:
-        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering different games — Build Base to Survive VERITY and the newer Verity Battles (SMOOF Games), whose two codes are confirmed in its official description, and Survive Verity in Area 51, which got its first-ever code with the HALLOWITY Halloween event (single source, below). All real code lists are on this page. This page is checked daily.",
+        "No. Neither Verity (The ROBO Studio!) nor Verity's Game (Slime Time Studios) has a code redemption system as of October 2026. Sites listing 'working Verity codes' are covering different games — Build Base to Survive VERITY and the newer Verity Battles (SMOOF Games), whose two codes are confirmed in its official description, and Survive Verity in Area 51, which got its first-ever code with the HALLOWITY Halloween event (single source, below). Bunker vs Verity — currently the most-played Verity game — already has a redemption box but has released no codes yet (Oct 25). All real code lists are on this page. This page is checked daily.",
     },
     {
       question: 'How do I get free stuff in Verity without codes?',
@@ -125,7 +125,8 @@ export default function CodesPage() {
           The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
           Random Verity, and inviting a friend gives you both one. Verity Battles is the second Verity-universe game
           with a permanent code system, after Build Base to Survive VERITY — Survive Verity in Area 51 got its first
-          (event) code with the HALLOWITY update, below — and the original Verity and Verity&apos;s Game still have none.
+          (event) code with the HALLOWITY update, below — and the original Verity and Verity&apos;s Game still have none. The ecosystem&apos;s newest giant,
+          <strong>Bunker vs Verity</strong>, has the redemption box wired up but no codes released as of Oct 25 — details below.
         </p>
         <h2>Survive Verity in Area 51 — First Code (HALLOWITY Event)</h2>
         <p>
@@ -146,6 +147,15 @@ export default function CodesPage() {
           added to the description, and the official wiki documents the new boss <strong>Witchity</strong> (spawns
           after the server defeats 100 regular Hallowitys, drops 250 candy). No new code shipped with Part 2
           (description re-checked Oct 21). Event codes usually expire when the event ends, so redeem early.
+        </p>
+        <h2>Bunker vs Verity — Code Box Live, No Codes Yet</h2>
+        <p>
+          The ecosystem&apos;s newest giant, <strong>Bunker vs Verity</strong> by Beyondd Games (launched Sept 22;
+          22.6M visits and the most-played Verity game at ~17.9K concurrent — Oct 25 Roblox API snapshot, updated
+          today), already has a permanent code redemption box: <strong>Settings button → scroll to the bottom →
+          &quot;Type a code&quot; → REDEEM</strong>. No codes have been released so far — RobloxDen&apos;s tracker shows zero
+          active and zero expired (re-checked Oct 25). With the box already wired in, first codes typically arrive
+          with a milestone or a content update; we check daily and they will appear here first.
         </p>
       </section>
 

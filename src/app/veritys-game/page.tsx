@@ -67,7 +67,7 @@ export default function VeritysGamePage() {
           <strong>Oct 10 (23:10 UTC)</strong>, the fifth since Sept 26 — still zero badges, no codes, no
           description change, no changelog. Steal A Verity! keeps accelerating: visits exploding from 18.9M to{' '}
           <strong>50.1M in under four weeks — past the 50-million mark — with favorites at 1.28M</strong>: after the Oct 14 [4X] event, its
-          Oct 19 update kept the <strong>[UPD]</strong> title (advertising 44X-speed days), and it holds ~5,100 online. And the
+          Oct 19 update kept the <strong>[UPD]</strong> title (advertising 44X-speed days), and it holds ~12,400 online (Oct 25 weekend). And the
           one to watch:{' '}
           <strong>Survive Verity in Area 51</strong> — 66.3M visits and 2.38M favorites, the most-visited and
           most-favorited Verity game on Roblox — has launched its Halloween event: after a week of{' '}
@@ -78,7 +78,7 @@ export default function VeritysGamePage() {
           (129K+ awards by Oct 21), and on Oct 18 the title re-flipped to <strong>[🎃HALLOWITY &amp; WITCH]🚪</strong> with
           a x2-coins weekend line in the description; the official wiki names the Part 2 boss <strong>Witchity</strong>,
           a broom-riding spell caster unlocked by defeating 100 regular Hallowitys. A further patch landed Oct 21 (03:21 UTC)
-          with no title or description change. It holds the ecosystem #2.
+          with no title or description change. It holds the ecosystem #3 (Oct 25), behind Bunker vs Verity and Steal A Verity!.
           Slime Time Studios is a verified group with 4.5M+ members; the game links{' '}
           <strong>no official Discord, Trello or social channels</strong> yet.
         </p>
@@ -93,6 +93,7 @@ export default function VeritysGamePage() {
           <li><strong>Escape Verity</strong> — The MMystery Games (the developer group renamed from Mind Blowing Productions; same group, verified) — escape-format spinoff; <strong>Chapter 4 is the finale</strong>: the game renamed to &quot;[C4] ESCAPE VERITY 🔑&quot; with its Oct 3 update (12:31 UTC), and full Chapter 1–4 walkthroughs hit YouTube within days (Dragonsubmann, Oct 2; El Mishi Triste, Oct 6 — ending included). Its Oct 17 update (08:52 UTC) dropped the chapter tag — the title now reads &quot;ESCAPE VERITY 🔑 [HORROR]&quot;. Odd detail: the &quot;Beat Chapter 4&quot; badge (on the badge API since Sept 19) still shows <strong>zero awards</strong> as of Oct 21 — 32 days in — despite finished walkthroughs, and the &quot;Total Chaos Ending&quot; badge has never been awarded either. 12.6M visits, 190K favorites.</li>
           <li><strong>Survive VERITY</strong> — Slime Time Studios — yes, the same studio: a second Verity game created Sept 10, six days after Verity&apos;s Game (confirmed on the group&apos;s official game list). Closer to the IP&apos;s horror roots: the entire official description is &quot;Find a hiding spot, SURVIVE THE NIGHT, Unlock powers, Become Verity&quot;. 1.8M visits but cooling — ~110 concurrent (Oct 21), zero badges, no update since Sept 30.</li>
           <li><strong>Build Base to Survive VERITY</strong> — base-defense spinoff where Verity attacks at night; seven <a href="/codes">working codes</a> tracked daily.</li>
+          <li><strong>Bunker vs Verity</strong> — Beyondd Games — bunker wave-defense spinoff launched Sept 22: build and fortify an underground bunker, place and control turrets, and fight off endless waves of Verities that scale the longer you survive (official description). It is currently the most-played Verity game on Roblox — ~17.9K concurrent and 22.6M visits in a month (Oct 25, Roblox games API), with an update landing today — plus five playtime/wave badges and a permanent code redemption box that has no codes yet (<a href="/codes">code status</a>).</li>
           <li><strong>Verity Battles</strong> — SMOOF Games — catch-and-battle spinoff launched Sept 17 (67 Verities, 6 zones, Meadow to Cosmic Rift; ~294 online, 1.62M visits, 78.5K favorites, updated Oct 17). One of two Verity games with a permanent code system — its official description prints <a href="/codes">CODES: RELEASE, VERITY</a> and also lists training at a gaming PC plus a &quot;Verity Blocks&quot; bonus-XP minigame.</li>
           <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending, and the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update. Its Oct 2 update then added three more badges — BACKUP COMPLETE, Out of Mind, Out of Sight and ESCAPE SUBJECT (now being earned — ~1,470–1,880 awards each by Oct 19, consistent with a new escape-flavored ending path) — taking the list to 13 — and its Oct 6 update added a 14th, TEST SUBJECT, which went live within days (799 awards by Oct 19; live badge API).</li>
           <li><strong>Verity Part 2</strong> — Umek0 Games — fan-made story continuation; its Part 2 update landed August 2026 with full walkthroughs already on YouTube. Not an official sequel — The ROBO Studio! has announced no Chapter 2 for the original.</li>
@@ -100,7 +101,7 @@ export default function VeritysGamePage() {
         </ul>
         <h2>How Verity&apos;s Game Compares (Live Roblox Data)</h2>
         <p className="not-prose text-sm text-gray-500">
-          All fourteen Verity-named Roblox games we track, ranked by concurrent players. Snapshot from the Roblox games API, Oct 21 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
+          All fifteen Verity-named Roblox games we track, ranked by concurrent players. Snapshot from the Roblox games API, Oct 25 2026 (Verity [REALISTIC] has gone private and shows no players) —{' '}
           <a href="/which-verity" className="underline">full comparison with what each game is</a>.
         </p>
         <div className="overflow-x-auto not-prose">
@@ -116,19 +117,20 @@ export default function VeritysGamePage() {
             </thead>
             <tbody>
               {[
-                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '5,124', visits: '50.1M', favs: '1.28M' },
-                { name: 'Survive Verity in Area 51', creator: 'Mochi Productions!', playing: '1,044', visits: '66.3M', favs: '2.38M' },
-                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '444', visits: '32.8M', favs: '62.7K' },
-                { name: 'Is It Verity?', creator: 'Prince Creations', playing: '345', visits: '11.4M', favs: '36.2K' },
-                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '297', visits: '19.6M', favs: '64.5K' },
-                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '208', visits: '35.7M', favs: '113.1K' },
-                { name: 'Verity Battles', creator: 'SMOOF Games', playing: '199', visits: '1.67M', favs: '80.0K' },
-                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '156', visits: '22.0M', favs: '53.7K' },
-                { name: 'Verity RP', creator: 'RP', playing: '149', visits: '15.3M', favs: '165.0K' },
-                { name: 'Survive VERITY', creator: 'Slime Time Studios', playing: '110', visits: '1.8M', favs: '3.8K' },
-                { name: 'Escape Verity', creator: 'The MMystery Games', playing: '33', visits: '12.6M', favs: '189.8K' },
-                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '20', visits: '28.7M', favs: '78.3K' },
-                { name: "Verity's Story", creator: 'elxyr', playing: '1', visits: '6.7M', favs: '12.2K' },
+                { name: 'Bunker vs Verity', creator: 'Beyondd Games', playing: '17,918', visits: '22.6M', favs: '43.2K' },
+                { name: 'Steal A Verity!', creator: 'Steal A Verity!', playing: '12,375', visits: '55.4M', favs: '1.36M' },
+                { name: 'Survive Verity in Area 51', creator: 'Mochi Productions!', playing: '1,732', visits: '67.0M', favs: '2.39M' },
+                { name: 'Build Base to Survive VERITY', creator: "Danvd's Larpductions", playing: '791', visits: '33.1M', favs: '63.1K' },
+                { name: 'Is It Verity?', creator: 'Prince Creations', playing: '770', visits: '11.8M', favs: '37.2K' },
+                { name: 'Verity Companion [AI]', creator: 'buzzword games', playing: '543', visits: '36.1M', favs: '114.3K' },
+                { name: 'Verity [HORROR]', creator: 'Specter Development', playing: '464', visits: '22.3M', favs: '54.3K' },
+                { name: "Verity's Game", creator: 'Slime Time Studios', playing: '422', visits: '19.8M', favs: '64.9K' },
+                { name: 'Verity Battles', creator: 'SMOOF Games', playing: '337', visits: '1.77M', favs: '82.6K' },
+                { name: 'Verity RP', creator: 'RP', playing: '262', visits: '15.5M', favs: '166.5K' },
+                { name: 'Survive VERITY', creator: 'Slime Time Studios', playing: '198', visits: '1.9M', favs: '4.0K' },
+                { name: 'Escape Verity', creator: 'The MMystery Games', playing: '53', visits: '12.6M', favs: '189.9K' },
+                { name: 'Verity™ (the original)', creator: 'The ROBO Studio!', playing: '47', visits: '28.8M', favs: '78.4K' },
+                { name: "Verity's Story", creator: 'elxyr', playing: '3', visits: '6.7M', favs: '12.3K' },
                 { name: 'Verity [REALISTIC]', creator: 'Fredbear Holds Neighbors', playing: 'private', visits: '28.5M', favs: '63.7K' },
               ].map((g) => (
                 <tr key={g.name} className="border-b border-gray-100 dark:border-gray-800/60">
