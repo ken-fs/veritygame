@@ -92,7 +92,7 @@ export default function VeritysGamePage() {
           <li><strong>Verity&apos;s Game</strong> — Slime Time Studios — the trending new entry (this page).</li>
           <li><strong>Escape Verity</strong> — The MMystery Games (the developer group renamed from Mind Blowing Productions; same group, verified) — escape-format spinoff; <strong>Chapter 4 is the finale</strong>: the game renamed to &quot;[C4] ESCAPE VERITY 🔑&quot; with its Oct 3 update (12:31 UTC), and full Chapter 1–4 walkthroughs hit YouTube within days (Dragonsubmann, Oct 2; El Mishi Triste, Oct 6 — ending included). Its Oct 17 update (08:52 UTC) dropped the chapter tag — the title now reads &quot;ESCAPE VERITY 🔑 [HORROR]&quot;. Odd detail: the &quot;Beat Chapter 4&quot; badge (on the badge API since Sept 19) still shows <strong>zero awards</strong> as of Oct 21 — 32 days in — despite finished walkthroughs, and the &quot;Total Chaos Ending&quot; badge has never been awarded either. 12.6M visits, 190K favorites.</li>
           <li><strong>Survive VERITY</strong> — Slime Time Studios — yes, the same studio: a second Verity game created Sept 10, six days after Verity&apos;s Game (confirmed on the group&apos;s official game list). Closer to the IP&apos;s horror roots: the entire official description is &quot;Find a hiding spot, SURVIVE THE NIGHT, Unlock powers, Become Verity&quot;. 1.8M visits but cooling — ~110 concurrent (Oct 21), zero badges, no update since Sept 30.</li>
-          <li><strong>Build Base to Survive VERITY</strong> — base-defense spinoff where Verity attacks at night; seven <a href="/codes">working codes</a> tracked daily.</li>
+          <li><strong>Build Base to Survive VERITY</strong> — base-defense spinoff where Verity attacks at night; <a href="/codes">code status</a> tracked daily (three codes currently marked Active by RobloxDen, with other reports unconfirmed).</li>
           <li><strong>Bunker vs Verity</strong> — Beyondd Games — bunker wave-defense spinoff launched Sept 22: build and fortify an underground bunker, place and control turrets, and fight off endless waves of Verities that scale the longer you survive (official description). It is currently the most-played Verity game on Roblox — ~17.9K concurrent and 22.6M visits in a month (Oct 25, Roblox games API), with an update landing today — plus five playtime/wave badges and a permanent code redemption box that has no codes yet (<a href="/codes">code status</a>).</li>
           <li><strong>Verity Battles</strong> — SMOOF Games — catch-and-battle spinoff launched Sept 17 (67 Verities, 6 zones, Meadow to Cosmic Rift; ~294 online, 1.62M visits, 78.5K favorites, updated Oct 17). One of two Verity games with a permanent code system — its official description prints <a href="/codes">CODES: RELEASE, VERITY</a> and also lists training at a gaming PC plus a &quot;Verity Blocks&quot; bonus-XP minigame.</li>
           <li><strong>Verity Companion [AI]</strong> — buzzword games — chat-focused spinoff; its Update 1 raised the message cap to 40 and added a new ending, and the badge list grew to 10 on Sept 23 (THE LAST GAME, HOUSE RULES?) ahead of a Sept 26 update. Its Oct 2 update then added three more badges — BACKUP COMPLETE, Out of Mind, Out of Sight and ESCAPE SUBJECT (now being earned — ~1,470–1,880 awards each by Oct 19, consistent with a new escape-flavored ending path) — taking the list to 13 — and its Oct 6 update added a 14th, TEST SUBJECT, which went live within days (799 awards by Oct 19; live badge API).</li>
@@ -163,24 +163,28 @@ export default function VeritysGamePage() {
 
         <h2>First Gameplay Footage: How It Actually Plays</h2>
         <p>
-          The first real gameplay videos are finally out, and they answer two of our long-open questions
-          (creator footage, not official patch notes — source-checked Oct 18):
+          Creator footage now answers the core progression questions. The main source is{' '}
+          <a href="https://www.youtube.com/watch?v=lTsyBEy6KgI" target="_blank" rel="noopener noreferrer nofollow">amvtci&apos;s Oct 4 video, &ldquo;Stealing Boxes Made Verity Angry!&rdquo;</a>{' '}
+          — 12 minutes of in-game footage, not official patch notes; transcript re-checked Oct 27:
         </p>
         <ul>
-          <li><strong>The giant smiley Verity is a guard.</strong> It watches the box field, and the moment you steal a box it &ldquo;takes that personally&rdquo; — it turns angry, chases you, and keeps getting angrier the more you grab (amvtci, &ldquo;Stealing Boxes Made Verity Angry!&rdquo;, Oct 4 — 12 minutes of in-game footage).</li>
-          <li><strong>Strength is the progression stat.</strong> You build strength to grab bigger and better boxes without letting the giant guard stop you (same video). Grabbing is strength-gated — a Sept 14 video by UIA shows an &ldquo;OP bug&rdquo; that lets you grab anything even at low strength.</li>
-          <li><strong>Verity variants roam the map.</strong> The same footage runs into &ldquo;Oldity and some other wild Verity variants&rdquo; — the IP&apos;s -ity naming pattern (Verity / Falsity / <a href="/characters">Barity</a>) made it into the game. Variant names beyond Oldity are unconfirmed.</li>
+          <li><strong>The giant smiley Verity is a guard.</strong> It watches the box field, and the moment you steal a box it &ldquo;takes that personally&rdquo; — it turns angry, chases you, and gets faster as its anger builds.</li>
+          <li><strong>Strength comes from an upgradeable treadmill.</strong> The treadmill includes a built-in minigame that helps build strength; stronger players can pick up heavier and more valuable boxes. Grabbing is strength-gated — a Sept 14 video by UIA also shows an &ldquo;OP bug&rdquo; that lets you grab anything even at low strength.</li>
+          <li><strong>Boxes unlock Verities that earn over time.</strong> The video opens boxes into Falsity and other Verities, then leaves the collection generating cash. Unwanted inventory can be sold. Larger boxes have higher strength requirements and opening timers — one shown in the run takes three minutes.</li>
+          <li><strong>Rebirth resets power for better cash income.</strong> The first rebirth prompt in this run appears at 5,000 and resets the treadmill and strength. After rebirthing, the creator&apos;s displayed income rises from $1,000 to $1,500 per second; the next requirement shown is 21,000. These are observations from one run, not an official progression table.</li>
+          <li><strong>Feeding Verity can calm him down.</strong> Successful thefts make the giant angrier, but the creator discovers that feeding other Verities to him reduces that anger. Another player can also draw the guard away, creating a window to grab a heavy box.</li>
+          <li><strong>More variants have names.</strong> Alongside Oldity, the creator calls out Falsity, Curiosity, Cruelty, Fragility, Obscurity and Vanity, plus a Gold Falsity. These are names heard in the footage rather than an official roster, so spelling and the full variant list remain provisional.</li>
         </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
           Remaining open questions — <strong>unverified, we publish nothing until confirmed</strong>:
         </p>
         <ul>
-          <li><strong>Box tiers &amp; odds</strong> — tier names beyond normal vs &ldquo;incredibly extremely rare&rdquo;, cash amounts, rarity rates</li>
-          <li><strong>How strength is built</strong> — training method, upgrades and what cash is spent on</li>
-          <li><strong>Player-vs-player stealing</strong> — guard-vs-thief is confirmed; whether other players can take your boxes, &ldquo;Steal An Egg&rdquo; style, is not seen yet</li>
+          <li><strong>Box tiers &amp; odds</strong> — the official rarity tiers, exact cash table and drop rates are still unpublished</li>
+          <li><strong>Exact progression numbers</strong> — treadmill upgrade costs and the full rebirth requirement/multiplier curve beyond the single run above</li>
+          <li><strong>Player-vs-player stealing</strong> — players visibly race for field boxes and can distract the guard for each other; whether someone can take a box already secured at your base is still not shown</li>
           <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
-          <li><strong>Updates</strong> — last game update Oct 10, 2026 (23:10 UTC), the fifth since Sept 26: no description change, still zero badges (live badge API, Oct 21) and no official changelog; new content drops land here first</li>
+          <li><strong>Updates</strong> — last game update Oct 10, 2026 (23:10 UTC), the fifth since Sept 26: no description change, still zero badges (Roblox games and badge APIs, re-checked Oct 27) and no official changelog; new content drops land here first</li>
         </ul>
         <p>
           New to the sphere universe? The original&apos;s <a href="/walkthrough">3-day walkthrough</a> is the fastest

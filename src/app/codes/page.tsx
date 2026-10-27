@@ -79,37 +79,29 @@ export default function CodesPage() {
         <p>
           Sites like GameRant, Dexerto and RobloxDen list &quot;Verity codes&quot; — they all belong to{" "}
           <strong>Build Base to Survive VERITY</strong>, a separate base-defense spinoff where Verity attacks your base
-          at night. Its Sept 28 update (the 💪 tag in the title) shipped a fresh batch of codes, two days after the
-          Sept 26 update doubled concurrent players to ~7,300; a further Sept 29 update added no new codes, and the
-          Oct 1 evening update (19:33 UTC) shipped one more: <code>UPDATE67SPECIAL</code>. Its active codes, cross-verified against RobloxDen
-          (re-checked Oct 12 — the Oct 10 update, 16:13 UTC, retitled the game to [🤖] and shipped no new codes; the active seven are unchanged),
-          GameRant (Oct 1) and TechWiser:
+          at night. A further game patch landed Oct 26 (11:29 UTC), but the official description still publishes no
+          codes. RobloxDen&apos;s table, re-checked Oct 27, now marks only these three codes <strong>Active</strong>:
         </p>
         <ul>
-          <li><code>UPDATE67SPECIAL</code> — 50 Reinforced Obsidian Blocks <strong>(newest — RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
-          <li><code>Lord</code> — 67 Reinforced Diamond <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
-          <li><code>MOGGITY</code> — 10 Barrier <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
-          <li><code>DUDU</code> — 100 Dudu Obsidian <strong>(RobloxDen active)</strong></li>
-          <li><code>UPDATE67</code> — 67 Bedrocks <strong>(RobloxDen active; also on GameRant&apos;s Oct 1 list)</strong></li>
-          <li><code>TOP1DUDU</code> — 10 DuDu <strong>(RobloxDen active)</strong></li>
+          <li><code>DUDU</code> — 100 Dudu Obsidian</li>
+          <li><code>TOP1DUDU</code> — 10 DuDu</li>
           <li><code>CODES</code> — $500 cash</li>
         </ul>
         <p>
-          RobloxDen&apos;s latest pass (Oct 12) demoted <code>WMEMBER67</code> (3 Mystery Boxes) and <code>DAILYQUESTS</code>{" "}
-          (1 Verity Turret per RobloxDen — TechWiser says Forcefield, sources differ) to &quot;check&quot;, while{" "}
-          <code>Update3</code> (10 Bedrock) and <code>Obesity</code> (10 Barrier) are back on the list at &quot;check&quot;
-          after being dropped a day earlier. <code>UPDATE4</code> (50 Crying Obsidian) stays at &quot;check&quot;;{" "}
-          <code>GODITY</code> and <code>UPDATE2</code> are expired, and <code>MANIPULITY</code>,{" "}
-          <code>THXFOR1M</code> and <code>CURIOSITYUPD</code> have now slipped to expired too. Still conflicting:{" "}
-          <code>OGplayer67</code> — TechWiser&apos;s list keeps it active, but RobloxDen has removed it entirely
-          (it was capped at the first 5,000 players, so it is most likely exhausted). <code>ROBLOXDOWN</code> stays
-          confirmed expired, and <code>10000PLAYERS</code> is on the expired list there. RobloxDen&apos;s Oct 1 pass added:{" "}
-          <code>SORRY4NOCODES</code> (10 God Verity Bedrocks) at &quot;check&quot; — the name reads as the dev
-          apologizing for the quiet spell since the Sept 28 code wave — and its Oct 12 check still keeps it at
-          &quot;check&quot;: still single source, not yet confirmed in-game.
-          The rest of the &quot;check&quot; list: VOIDITY and WEEKLY — worst case the game
-          says invalid. To redeem:
-          Store button (left of the screen) → scroll to the FREE STUFF section → code box → Enter.
+          Four codes previously listed as active here — <code>UPDATE67SPECIAL</code> (50 Reinforced Obsidian Blocks),{" "}
+          <code>Lord</code> (67 Reinforced Diamond), <code>MOGGITY</code> (10 Barrier) and <code>UPDATE67</code>{" "}
+          (67 Bedrocks) — are now marked <strong>Check</strong> by RobloxDen, not Expired. Its other Check entries are{" "}
+          <code>SORRY4NOCODES</code>, <code>WMEMBER67</code>, <code>VOIDITY</code>, <code>UPDATE4</code>,{" "}
+          <code>DAILYQUESTS</code>, <code>WEEKLY</code>, <code>Obesity</code> and <code>Update3</code>.
+        </p>
+        <p>
+          Other trackers disagree: UrGameTips still lists <code>UPDATE67</code>, <code>Lord</code>, <code>MOGGITY</code>{" "}
+          and <code>SORRY4NOCODES</code> as working, while SuperCheats&apos; Oct 19 list also includes{" "}
+          <code>UPDATE67SPECIAL</code> and <code>WMEMBER67</code>. We therefore keep those as reported but unconfirmed,
+          rather than calling them expired. RobloxDen currently marks <code>GODITY</code>, <code>UPDATE2</code>,{" "}
+          <code>MANIPULITY</code>, <code>ROBLOXDOWN</code>, <code>THXFOR1M</code>, <code>CURIOSITYUPD</code> and{" "}
+          <code>10000PLAYERS</code> expired. To redeem: Store button (left of the screen) → scroll to FREE STUFF →
+          code box → Enter. Codes are case-sensitive; an unconfirmed code may simply return invalid.
         </p>
         <h2>Verity Battles Codes (Confirmed by the Game Itself)</h2>
         <p>
@@ -118,15 +110,16 @@ export default function CodesPage() {
           description, so these two are confirmed real rather than aggregator-sourced:
         </p>
         <ul>
-          <li><code>RELEASE</code> — free Random Verity <strong>(confirmed in the official description, re-checked Oct 21)</strong></li>
-          <li><code>VERITY</code> — free rewards <strong>(confirmed in the official description, re-checked Oct 21)</strong></li>
+          <li><code>RELEASE</code> — 1,000 Cash + 1 Random Verity <strong>(RobloxDen, re-checked Oct 27; GameRant corroborates the cash, and the official description confirms the Random Verity)</strong></li>
+          <li><code>VERITY</code> — Cash <strong>(RobloxDen reports 600; GameRant reports 500 — sources differ)</strong></li>
         </ul>
         <p>
-          The description also lists two code-free bonuses: joining the SMOOF Games group gives +10% cash and a free
-          Random Verity, and inviting a friend gives you both one. Verity Battles is the second Verity-universe game
+          Redeem through the Gear icon at the top-left → Enter a code → Redeem. The description also lists two
+          code-free bonuses: joining the SMOOF Games group gives +10% cash and a free Random Verity, and inviting a
+          friend gives you both one. Verity Battles is the second Verity-universe game
           with a permanent code system, after Build Base to Survive VERITY — Survive Verity in Area 51 got its first
           (event) code with the HALLOWITY update, below — and the original Verity and Verity&apos;s Game still have none. The ecosystem&apos;s newest giant,
-          <strong>Bunker vs Verity</strong>, has the redemption box wired up but no codes released as of Oct 25 — details below.
+          <strong>Bunker vs Verity</strong>, has the redemption box wired up but no codes released as of Oct 27 — details below.
         </p>
         <h2>Survive Verity in Area 51 — First Code (HALLOWITY Event)</h2>
         <p>
@@ -154,7 +147,7 @@ export default function CodesPage() {
           22.6M visits and the most-played Verity game at ~17.9K concurrent — Oct 25 Roblox API snapshot, updated
           today), already has a permanent code redemption box: <strong>Settings button → scroll to the bottom →
           &quot;Type a code&quot; → REDEEM</strong>. No codes have been released so far — RobloxDen&apos;s tracker shows zero
-          active and zero expired (re-checked Oct 25). With the box already wired in, first codes typically arrive
+          active and zero expired (re-checked Oct 27). With the box already wired in, first codes typically arrive
           with a milestone or a content update; we check daily and they will appear here first.
         </p>
       </section>

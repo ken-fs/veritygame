@@ -46,7 +46,7 @@ const GAMES = [
     favs: '63.1K',
     maxPlayers: '6',
     type: 'Spinoff · base defense',
-    what: 'Build a base with friends, place turrets and guns, and survive Verity when he attacks at night. The late-September 💪 updates keep shipping codes (the Sept 28 wave added Lord, MOGGITY and DUDU; the Oct 1 evening update added UPDATE67SPECIAL) but each bump fades within a day — now ~444 concurrent (Oct 21) after its Oct 17 patch (17:07 UTC; title tag [🤖]), which shipped no new codes (RobloxDen, re-checked Oct 12: the active seven are unchanged). One of two Verity-universe games with a permanent code system (the other is Verity Battles) — codes are tracked on our codes page.',
+    what: 'Build a base with friends, place turrets and guns, and survive Verity when he attacks at night. The late-September 💪 updates shipped several code waves, and a further patch landed Oct 26 (11:29 UTC) without changing the official description. In the Oct 27 check, RobloxDen marks only DUDU, TOP1DUDU and CODES Active; earlier codes including UPDATE67SPECIAL, Lord, MOGGITY and UPDATE67 are at Check, while other trackers disagree — see the codes page for the source split. One of two Verity-universe games with a permanent code system (the other is Verity Battles) — codes are tracked on our codes page.',
     guide: { href: '/codes', label: 'Working codes' },
     featured: true,
   },
@@ -220,7 +220,7 @@ export default function WhichVerityPage() {
     {
       question: 'Which Verity game has codes?',
       answer:
-        'Two of them have permanent code systems: Build Base to Survive VERITY (seven active codes) and Verity Battles, whose official description prints "CODES: RELEASE, VERITY". A third got its first-ever code with its Halloween event: Survive Verity in Area 51 — creator footage of the HALLOWITY update shows the code Halloween2026 redeeming 500 candy in the event shop (single source, not yet confirmed in-game). The biggest new entry, Bunker vs Verity, already has a permanent redemption box (Settings → REDEEM) but has released no codes yet (RobloxDen, re-checked Oct 25). The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing Build Base codes under the wrong name.',
+        'Build Base to Survive VERITY and Verity Battles have active codes. RobloxDen currently marks DUDU, TOP1DUDU and CODES Active for Build Base, with other reported codes at Check or disputed between trackers; Verity Battles\' official description prints "CODES: RELEASE, VERITY". A third game got its first-ever code with its Halloween event: Survive Verity in Area 51 — creator footage of the HALLOWITY update shows the code Halloween2026 redeeming 500 candy in the event shop (single source, not yet confirmed in-game). The biggest new entry, Bunker vs Verity, already has a permanent redemption box (Settings → REDEEM) but has released no codes yet (RobloxDen, re-checked Oct 27). The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing Build Base codes under the wrong name.',
     },
     {
       question: 'Which Verity game has the most players?',
