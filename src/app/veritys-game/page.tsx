@@ -175,6 +175,17 @@ export default function VeritysGamePage() {
           <li><strong>Feeding Verity can calm him down.</strong> Successful thefts make the giant angrier, but the creator discovers that feeding other Verities to him reduces that anger. Another player can also draw the guard away, creating a window to grab a heavy box.</li>
           <li><strong>More variants have names.</strong> Alongside Oldity, the creator calls out Falsity, Curiosity, Cruelty, Fragility, Obscurity and Vanity, plus a Gold Falsity. These are names heard in the footage rather than an official roster, so spelling and the full variant list remain provisional.</li>
         </ul>
+        <h2>Verity Phone Chats &amp; the 100% Anger Event</h2>
+        <p>
+          A second source —{' '}
+          <a href="https://www.youtube.com/watch?v=hRgEtxWjF9I" target="_blank" rel="noopener noreferrer nofollow">LuckyContestant&apos;s Oct 25 gameplay</a>{' '}
+          (20 minutes; transcript and footage checked Oct 28) — shows a phone interaction and anger sequence not covered by the first run:
+        </p>
+        <ul>
+          <li><strong>Verity chats through a phone UI.</strong> He presents moral dilemmas and the player picks a response. In one example, a kid offers $50 for the player&apos;s old bike; after the player chooses <em>Keep the bike</em>, Verity narrates the consequence — the little brother later crashes it into a parked car.</li>
+          <li><strong>100% Anger leads into a visible attack phase.</strong> The meter reaches 100%, the map turns red and <strong>SOMETHING IS HERE</strong> appears before an entity attacks at the creator&apos;s base. Feeding later brings the meter back down in the same run. The video shows no separate ending or reward, so we are treating this as an event, not an ending.</li>
+          <li><strong>The collection has an Index and offline income.</strong> An Index button is visible, and an in-game notice explicitly says the player&apos;s Verities earn offline. Exact offline rates and the phone-chat trigger remain unverified.</li>
+        </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
           Remaining open questions — <strong>unverified, we publish nothing until confirmed</strong>:
