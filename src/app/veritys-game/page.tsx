@@ -186,6 +186,21 @@ export default function VeritysGamePage() {
           <li><strong>100% Anger leads into a visible attack phase.</strong> The meter reaches 100%, the map turns red and <strong>SOMETHING IS HERE</strong> appears before an entity attacks at the creator&apos;s base. Feeding later brings the meter back down in the same run. The video shows no separate ending or reward, so we are treating this as an event, not an ending.</li>
           <li><strong>The collection has an Index and offline income.</strong> An Index button is visible, and an in-game notice explicitly says the player&apos;s Verities earn offline. Exact offline rates and the phone-chat trigger remain unverified.</li>
         </ul>
+        <h2>Oct 28 Multiplayer Footage: Trading, Fusion &amp; Slots</h2>
+        <p>
+          A third source —{' '}
+          <a href="https://www.youtube.com/watch?v=bEzLuDE7rA4" target="_blank" rel="noopener noreferrer nofollow">Aphmau Shuki&apos;s Oct 28 video, &ldquo;Getting EVERY VERITY in Roblox!&rdquo;</a>{' '}
+          (19 minutes; auto-generated English transcript checked Oct 29) — is a multiplayer run through the same official place.
+          It adds these observed mechanics; none are official patch notes:
+        </p>
+        <ul>
+          <li><strong>Secured boxes cannot be stolen from a friend&apos;s base.</strong> One player tries and is told &ldquo;no, you cannot&rdquo;. Unsecured boxes are different: the run shows that they can reset if not brought back within a short window, although no exact timer is shown.</li>
+          <li><strong>Player trading is built in.</strong> Trade requests appear throughout the run, and the UI rejects one offer as &ldquo;too unfair&rdquo; when the offered values differ. The video does not establish a complete value table.</li>
+          <li><strong>A fuse machine accepts gold Verities.</strong> In-run testing leads the players to say that only gold variants qualify and three are required; no full recipe or result table is shown.</li>
+          <li><strong>Base slots can be upgraded.</strong> Only a limited number of Verities can be placed, so the players equip their best ones. A sign next to the base provides the slot upgrade.</li>
+          <li><strong>The Index has claimable box rewards.</strong> The top-left Index shows claim actions and free boxes during the run; the exact unlock requirements are not established.</li>
+          <li><strong>Chat and phone activities extend beyond the giant&apos;s dilemmas.</strong> A player opens a conversation with a collected Verity and receives responses. Others play phone minigames or read stories while training on the treadmill.</li>
+        </ul>
         <h2>What We&apos;re Tracking</h2>
         <p>
           Remaining open questions — <strong>unverified, we publish nothing until confirmed</strong>:
@@ -193,7 +208,6 @@ export default function VeritysGamePage() {
         <ul>
           <li><strong>Box tiers &amp; odds</strong> — the official rarity tiers, exact cash table and drop rates are still unpublished</li>
           <li><strong>Exact progression numbers</strong> — treadmill upgrade costs and the full rebirth requirement/multiplier curve beyond the single run above</li>
-          <li><strong>Player-vs-player stealing</strong> — players visibly race for field boxes and can distract the guard for each other; whether someone can take a box already secured at your base is still not shown</li>
           <li><strong>Codes</strong> — none confirmed for either game; checked daily (see <a href="/codes">codes status</a>)</li>
           <li><strong>Updates</strong> — last game update Oct 10, 2026 (23:10 UTC), the fifth since Sept 26: no description change, still zero badges (Roblox games and badge APIs, re-checked Oct 27) and no official changelog; new content drops land here first</li>
         </ul>
