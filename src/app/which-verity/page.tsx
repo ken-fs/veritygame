@@ -59,7 +59,7 @@ const GAMES = [
     favs: '43.2K',
     maxPlayers: '6',
     type: 'Spinoff · bunker wave defense',
-    what: 'Build, fortify, survive: construct an underground bunker with tons of different blocks, place and control powerful turrets, and fight off endless waves of Verities — earning coins from kills to upgrade your defenses, and hiding underground when things get crazy; the longer you survive, the harder the waves get (official description). Launched Sept 22 and currently the most-played Verity game on Roblox: ~17.9K concurrent and 22.6M visits in a month (Oct 25 snapshot, Roblox games API), with its latest update landing today (Oct 25, 00:27 UTC). Five badges track playtime and wave milestones (Welcome!, 10 Minutes!, 30 Minutes!, 10 waves, 25 Waves — 8.6M hold the welcome badge). It already has a permanent code redemption box (Settings → scroll down → REDEEM) but zero codes released so far — RobloxDen, re-checked Oct 25.',
+    what: 'Build, fortify, survive: construct an underground bunker with tons of different blocks, place and control powerful turrets, and fight off endless waves of Verities — earning coins from kills to upgrade your defenses, and hiding underground when things get crazy; the longer you survive, the harder the waves get (official description). Launched Sept 22 and currently the most-played Verity game on Roblox: ~17.9K concurrent and 22.6M visits in a month (Oct 25 snapshot, Roblox games API), with its latest update landing today (Oct 25, 00:27 UTC). Five badges track playtime and wave milestones (Welcome!, 10 Minutes!, 30 Minutes!, 10 waves, 25 Waves — 8.6M hold the welcome badge). Its permanent code redemption box (Settings → scroll down → REDEEM) now has a first active code: MECHITY for 107,500 Cash and 30 Tech Parts — RobloxDen and UrGameTips, re-checked Nov 6.',
     guide: { href: '/codes', label: 'Code status' },
     featured: true,
   },
@@ -220,7 +220,7 @@ export default function WhichVerityPage() {
     {
       question: 'Which Verity game has codes?',
       answer:
-        'Build Base to Survive VERITY and Verity Battles have active codes. RobloxDen currently marks DUDU, TOP1DUDU and CODES Active for Build Base, with other reported codes at Check or disputed between trackers; Verity Battles\' official description prints "CODES: RELEASE, VERITY". A third game got its first-ever code with its Halloween event: Survive Verity in Area 51 — creator footage of the HALLOWITY update shows the code Halloween2026 redeeming 500 candy in the event shop (single source, not yet confirmed in-game). The biggest new entry, Bunker vs Verity, already has a permanent redemption box (Settings → REDEEM) but has released no codes yet (RobloxDen, re-checked Oct 27). The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing Build Base codes under the wrong name.',
+        'Build Base to Survive VERITY and Verity Battles have active codes. RobloxDen currently marks DUDU, TOP1DUDU and CODES Active for Build Base, with other reported codes at Check or disputed between trackers; Verity Battles\' official description prints "CODES: RELEASE, VERITY". Survive Verity in Area 51 got its first-ever code with its Halloween event: creator footage of the HALLOWITY update shows Halloween2026 redeeming 500 candy in the event shop (single source, not yet confirmed in-game). Bunker vs Verity now has its first active code too: MECHITY for 107,500 Cash and 30 Tech Parts, confirmed by both RobloxDen and UrGameTips on Nov 6. The original Verity, Verity\'s Game, Verity [HORROR] and the others do not have codes — any site listing "Verity codes" for them is publishing codes for a different game under the wrong name.',
     },
     {
       question: 'Which Verity game has the most players?',
@@ -335,9 +335,10 @@ export default function WhichVerityPage() {
           does not exist in the game you are playing.
         </p>
         <p>
-          The same applies to codes: only <strong>Build Base to Survive VERITY</strong> and <strong>Verity Battles</strong> have
-          them, which is why most &quot;Verity codes&quot; pages on the internet are really Build Base codes pages. Ours says so
-          explicitly on the <Link href="/codes">codes page</Link>.
+          The same applies to codes: <strong>Build Base to Survive VERITY</strong>, <strong>Verity Battles</strong>,
+          <strong>Bunker vs Verity</strong> and <strong>Survive Verity in Area 51</strong> each have their own separate
+          code list; the original Verity and Verity&apos;s Game have no code system. Ours separates them explicitly on the{' '}
+          <Link href="/codes">codes page</Link>.
         </p>
         <p className="text-sm text-gray-500">
           Player counts, visits and favorites on this page are live Roblox figures pulled from the Roblox games API.
